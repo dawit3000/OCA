@@ -8,17 +8,28 @@ retention, or a blend of both.
 
 ## 🔑 Key Features
 
-- Upload a teaching schedule in `.csv` format
-- Optionally, filter courses by:
+- Upload a teaching schedule in `.csv` format from a loacal data folder
+  or a url to such file
+- Optionally, filter courses by patterns of:
   - Subject
   - Instructors
   - College
-  - Program
+  - Department
+  - Program -Enter Institutional compensation policies such as
+  - Pay Rate per Credit Hour
+  - Regular Teaching Load
+  - Minimum Enrollment for Proration(L)
+  - Maximum Enrollment for Proration(U)
+    - if none, choose L = U = 1 so that no proration (extreme case to be
+      checked).  
 - Choose a compensation strategy using a slider:
   - **Favor Institution** (minimize pay)
   - **Favor Faculty** (maximize fairness)
-  - **Blend** between the two with a user-defined weighed mean approach
-- Visualize instructor compensation totals across strategies
+  - **Blend** between the two with a user-defined approach (weighed mean
+    approach).
+- An option to Compare All Strategies in the output
+- Show Comparison Chart to isualize instructor compensation totals
+  across strategies
 
 ## 🖥️ Try the Live App
 
