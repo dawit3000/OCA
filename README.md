@@ -9,15 +9,15 @@ retention, or a blend of both.
 ## 🔑 Key Features
 
 - Upload a teaching schedule in `.csv` format
-- Filter courses by:
+- Optionally, filter courses by:
   - Subject
-  - Instructor
+  - Instructors
   - College
   - Program
 - Choose a compensation strategy using a slider:
   - **Favor Institution** (minimize pay)
   - **Favor Faculty** (maximize fairness)
-  - **Blend** between the two with a user-defined weight
+  - **Blend** between the two with a user-defined weighed mean approach
 - Visualize instructor compensation totals across strategies
 
 ## 🖥️ Try the Live App
