@@ -1,11 +1,666 @@
-RowNo,SUBJ,HRS,ENRLD,INSTRUCTOR
-1,MATH 1111,3,38,"Smith, Abigail"
-3,MATH 3111,4,9,"Smith, Abigail"
-4,MATH 2011,3,8,"Smith, Abigail"
-5,MATH 1211,4,7,"Smith, Abigail"
-6,MATH 2211,3,6,"Smith, Abigail"
-7,MATH 3211,2,5,"Smith, Abigail"
-8,MATH 1100,2,4,"Smith, Abigail"
-10,MATH 5100,0,3,"Smith, Abigail"
-11,MATH 7100,3,2,"Smith, Abigail"
-12,MATH 2100,1,0,"Smith, Abigail"
+﻿P.of.T,SUBJ,NUMB,SECT,CRN,TITLE,NOTES,HRS,ENRLD,MAXENRL,TIMES,DAYS,INSTRUCTOR,DEPARTMENT,COLLEGE
+1,ACCT,2101,W1,49476,PRINCIPLES OF ACCOUNTING I,NA,3,34,30,NA,NA,"Bui, Analie",Business Administration,College of Arts and Sciences
+1,ACCT,2101,WH,50425,PRINCIPLES OF ACCOUNTING I,NA,3,32,30,05:30-08:15,T,"Calhoun, Alexandra",Business Administration,College of Arts and Sciences
+1,ACCT,2102,W1,49316,PRINCIPLES OF ACCOUNTING II,NA,3,34,30,NA,NA,"Bui, Analie",Business Administration,College of Arts and Sciences
+1,ACCT,3113,WH,47259,INTERMEDIATE ACCOUNTING II,NA,3,7,30,09:30-10:45,T R,"Davis, Kheylen",Business Administration,College of Arts and Sciences
+1,ACCT,3133,WH,49318,INDIVIDUAL INCOME TAX,NA,3,9,30,11:00-12:15,M W,"Davis, Kheylen",Business Administration,College of Arts and Sciences
+1,ACCT,4113,WH1,49909,GOVERNMENT NOT-FOR-PROFIT,NA,3,8,30,05:30-08:15,W,"el-Salman, Fuaad",Business Administration,College of Arts and Sciences
+1,AENT,2833,WH,49502,SURVEYING,NA,3,31,30,09:00-09:50,M W,"el-Zaher, Kamaaluddeen",Other,Other
+1,AENT,2833*,51,49503,SURVEY LAB,NA,0,31,30,07:00-08:50,T,"el-Zaher, Kamaaluddeen",Other,Other
+1,AENT,3803,WH,48393,BUILDINGS & RELATED STRUCTURES,NA,3,12,30,06:00-07:50,M,"Bouchon, Karis",Other,Other
+1,AENT,3803L,51,48394,BUILDNG & RELATED STRUCT LAB,NA,0,12,30,05:00-06:50,R,"Bouchon, Karis",Other,Other
+1,AENT,3832,WH,49782,INSTRUMENTATION,NA,2,4,30,10:00-10:50,M W,"el-Zaher, Kamaaluddeen",Other,Other
+1,AENT,3832L,51,49783,INSTRUMENTATION LAB,- No-cost:$0 required txtbk cost,0,4,20,08:00-09:50,M,"el-Zaher, Kamaaluddeen",Other,Other
+1,AENT,4813,1,47928,"SOIL,WATER,&NATURAL RESOURCE",NA,3,8,20,01:00-01:50,M W,"Boucher, Samuel",Other,Other
+1,AENT,4813L,51,47812,"SOIL,WATER,&NATURAL RES. LAB",NA,0,8,20,02:00-03:50,F,"Boucher, Samuel",Other,Other
+1,AENT,4833,WH,50099,MACHINERY FOR AGRICULTURE,NA,3,5,10,09:30-10:45,T R,"Rose-Williams, Javon",Other,Other
+1,AENT,4833,WH1,50513,MACHINERY FOR AGRICULTURE,NA,3,1,10,08:00-08:50,M W,"Rose-Williams, Javon",Other,Other
+1,AENT,4833L,51,50100,MACHINERY FOR AGRICULTURE LAB,NA,0,6,10,07:00-08:50,W,"Rose-Williams, Javon",Other,Other
+1,AENT,4881,WH,49504,SENIOR SEMINAR,NA,1,7,25,05:00-05:50,M,"Greenstein, Derrick",Other,Other
+1,AGEC,3813,1,47632,AGRICULTURAL FINANCE & RECORDS,NA,3,12,25,05:30-08:30,T,"Torres, Adam",Other,Other
+1,AGEC,4823,1,47331,MARKETING AGRICULTURAL PRODUCT,NA,3,13,25,09:30-10:45,T R,"Bostic, Alisha",Other,Other
+1,AGEC,4833,1,49483,AGRICULTURAL POLICIES,NA,3,12,25,09:00-09:50,M W F,"Ivey, Raven",Other,Other
+1,AGEC,4843,1,47605,PRODUCTION ECONOMICS,NA,3,13,25,08:00-09:15,T R,"Bostic, Alisha",Other,Other
+1,AGEC,4853,1,49266,NAT. RESOURCES ECON.,NA,3,11,25,11:00-11:50,M W F,"Ivey, Raven",Other,Other
+1,AGEC,4864,1,49287,SPEC PROB IN AGRI ECONOMIC,NA,3,12,12,10:00-10:50,M W F,"Bostic, Alisha",Other,Other
+1,ANSC,1811,1,47368,INTRO TO ANIMAL AGRICULTURE,NA,1,76,80,01:00-01:50,R,"Soto, Salvador",Other,Other
+1,ANSC,2803,1,47369,GENERAL ANIMAL SCIENCE,NA,3,79,80,12:00-12:50,M W,"Hocking, Kevin",Other,Other
+1,ANSC,2803L,51,47370,GEN ANIMAL SCI LAB,NA,0,78,80,01:00-02:50,T,"Hocking, Kevin",Other,Other
+1,ANSC,2803L,52,50480,GEN ANIMAL SCI LAB,NA,0,2,4,01:00-02:50,S,"Hocking, Kevin",Other,Other
+1,ANSC,3813,1,47525,MEAT SCIENCE,NA,3,26,45,10:00-10:50,M W,"al-Hussein, Abdul Waahid",Other,Other
+1,ANSC,3813L,51,47526,PRIN OF MEAT SCI LAB,NA,0,26,45,03:30-05:20,R,"al-Hussein, Abdul Waahid",Other,Other
+1,ANSC,3823,1,47536,PHYSIOLOGY DOMESTIC ANIMALS,NA,3,35,45,01:00-01:50,M W,"King, Zeid",Other,Other
+1,ANSC,3823L,51,47537,PHYS OF DOMESTIC ANIM. LAB,NA,0,35,45,04:00-05:50,F,"King, Zeid",Other,Other
+1,ANSC,3863,1,50489,DAIRY CATTLE PRODUCTION,NA,3,21,30,05:00-05:50,M W,"Cha, Tran",Other,Other
+1,ANSC,3863L,51,50490,DAIRY CATTLE PROD LAB,NA,0,21,30,05:30-07:20,T,"Cha, Tran",Other,Other
+1,ANSC,3883,1,47371,APPLIED ANIMAL NUTRITION,NA,3,28,45,11:00-11:50,M W,"Hocking, Kevin",Other,Other
+1,ANSC,3883L,51,47372,APPLIED ANIMAL NUTR LAB,NA,0,27,45,03:30-05:20,T,"Hocking, Kevin",Other,Other
+1,ANSC,3883L,52,50552,APPLIED ANIMAL NUTR LAB,NA,0,1,5,11:00-12:50,S,"Hocking, Kevin",Other,Other
+1,ANSC,4813,1,48816,ANIMAL BREEDING,NA,3,29,45,06:00-07:15,M W,"Cha, Tran",Other,Other
+1,ANSC,4822,1,49822,SENIOR RESEARCH,NA,2,6,15,06:00-06:50,R,"King, Zeid",Other,Other
+1,ANSC,4822L,51,49849,SENIOR RESEARCH LAB,NA,0,6,15,05:00-06:50,NA,"King, Zeid",Other,Other
+1,ANSC,4841,1,49224,ANIMAL SCIENCE SEMINAR,NA,1,20,20,04:00-04:50,W,"Armstrong, Desanay",Other,Other
+1,ANSC,5123,1,47593,PHYSIOLOGICAL CHEM II,NA,3,19,20,04:00-04:50,M W F,"Kramer, James",Other,Other
+1,ANSC,5203,1,49281,EXPERIMENTAL DESIGN/DATA ANAL,NA,3,17,15,05:30-07:00,T R,"al-Hussein, Abdul Waahid",Other,Other
+1,ANSC,6103,1,47814,PLANT-HERBIVORE INTERATIONS,NA,3,21,20,09:30-10:45,T R,"Soto, Salvador",Other,Other
+1,ANSC,6103L,51,47815,PLANT & HERBIVORE INTER LAB,NA,0,21,20,08:00-09:00,R,"Soto, Salvador",Other,Other
+1,ANSC,6153,1,47816,ANIMAL ENERGETICS,NA,3,10,15,08:00-08:50,M W F,"Kramer, James",Other,Other
+1,ANSC,6273,1,48406,CELL PHYSIOLOGY,NA,3,16,20,10:00-10:50,M W F,"King, Zeid",Other,Other
+1,ANSC,6421,1,47817,GRADUATE SEMINARS,NA,1,5,15,04:00-04:50,T,"Soto, Salvador",Other,Other
+1,ANSC,6436,1,47427,RESEARCH AND THESIS,NA,1,14,15,02:00-02:50,T,"King, Zeid",Other,Other
+1,ARTH,1000,1,47295,ART APPRECIATION,NA,3,35,30,10:00-10:50,M W F,"el-Ayoub, Muneefa",Arts and Communications,College of Arts and Sciences
+1,ARTH,1000,2,47404,ART APPRECIATION,NA,3,34,30,11:00-11:50,M W F,"el-Ayoub, Muneefa",Arts and Communications,College of Arts and Sciences
+1,ARTH,1000,3,47347,ART APPRECIATION,NA,3,31,30,02:00-02:50,M W F,"el-Ayoub, Muneefa",Arts and Communications,College of Arts and Sciences
+1,ARTH,2000,1,50411,ART HISTORY SURVEY I,- No-cost:$0 required txtbk cost,3,3,30,05:00-07:00,W,"el-Ayoub, Muneefa",Arts and Communications,College of Arts and Sciences
+1,ARTH,2312,1,49290,TYPOGRAPHIC DESIGN,NA,3,1,20,10:00-10:50,M W,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,2312L,51,49586,TYPOGRAPHIC DESIGN LAB,NA,0,1,20,10:00-10:50,F,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,2350,1,50422,SCULPTURE,NA,3,4,20,01:00-02:45,T,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,2350L,51,50423,SCULPTURE LAB,NA,0,4,20,01:00-02:45,R,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,3103,1,50023,PERSPECTIVE DRAWING,NA,3,2,20,03:00-04:50,M,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,3103L,51,50024,PERSPECTIVE DRAWING LAB,NA,0,2,20,03:00-04:50,W,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,3130,1,49832,COLOR THEORY,NA,3,3,20,09:30-10:45,T,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,3130L,51,49833,COLOR THEORY LAB,NA,0,2,20,09:30-10:45,R,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,3353,1,49837,HISTORY OF GRAPHIC DESIGN,NA,3,4,20,09:00-09:50,M W F,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,3369,1,50463,FUND OF GRAPHIC DESIGN,NA,3,4,20,02:00-02:50,M W F,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,3393,1,48889,DIGITAL MEDIA & DESIGN III,- No-cost:$0 required txtbk cost,3,4,20,03:00-03:50,M W,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,3393L,51,48890,DIGITAL MEDIA & DESIGN III LAB,- No-cost:$0 required txtbk cost,0,4,20,03:00-03:50,F,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,4113,1,49834,PORTFOLIO I,- No-cost:$0 required txtbk cost,3,3,20,11:00-11:50,M W F,"Marquez, Edgar",Arts and Communications,College of Arts and Sciences
+1,ARTH,4483,1,50419,WATERCOLOR PAINTING,NA,3,1,20,10:00-10:50,M,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,ARTH,4483L,51,50420,WATERCOLOR PAINTING LAB,NA,0,1,20,10:00-10:50,W,"Trujillo, Matthew",Arts and Communications,College of Arts and Sciences
+1,BHSC,2300,W1,47846,BEHAVIORAL STATS,NA,3,38,30,NA,NA,"Rocha, Chance",Behavioral and Social Sciences,College of Arts and Sciences
+1,BHSC,2300,WH,47374,BEHAVIORAL STATS,NA,3,36,30,10:00-10:50,M W F,"Gooding, Benjamin",Behavioral and Social Sciences,College of Arts and Sciences
+1,BIOL,1101,2,47340,INTRO TO BIOLOGY,NA,1,29,28,02:00-02:50,W,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1101,W1,50289,INTRO TO BIOLOGY,- $40 or under req txtbks cost,1,29,30,NA,NA,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104K,2,47254,INTRO BIOLOGY,NA,4,53,50,09:30-10:45,T R,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104K,W1,47633,INTRO BIOLOGY,NA,4,41,40,NA,NA,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104K,W2,50503,INTRO BIOLOGY,NA,4,54,55,NA,NA,"Rodriguez, Issiah",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104L,54,49485,INTRO BIOL LAB,- $40 or under req txtbks cost,0,30,30,03:30-05:20,T,"Grange, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104L,55,48584,INTRO BIOL LAB,NA,0,22,30,12:00-01:50,T,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104L,W51,47635,INTRO BIOL LAB,NA,0,41,40,NA,NA,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1104L,W52,50505,INTRO BIOL LAB,- $40 or under req txtbks cost,0,54,55,NA,NA,"Rodriguez, Issiah",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1105,1,47548,ENVIRONMENTAL SCIENCE,NA,3,44,50,12:30-01:45,T R,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1105,2,48486,ENVIRONMENTAL SCIENCE,NA,3,23,50,03:15-04:30,T R,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1105,W1,47547,ENVIRONMENTAL SCIENCE,NA,3,35,40,NA,NA,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107K,1,49077,PRINCIPLES OF BIOLOGY I,#NAME?,4,46,40,10:00-10:50,M W F,"Grange, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107K,2,50059,PRINCIPLES OF BIOLOGY I,#NAME?,4,46,50,03:00-03:50,M W F,"Grange, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107K,3,48801,PRINCIPLES OF BIOLOGY I,#NAME?,4,47,50,02:00-02:50,M W F,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107L,52,47465,PRIN OF BIOL LAB,NA,0,38,30,02:00-03:50,R,"Grange, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107L,53,50060,PRIN OF BIOL LAB,- No-cost:$0 required txtbk cost,0,31,30,04:00-05:50,R,"Grange, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107L,54,47513,PRIN OF BIOL LAB,NA,0,34,30,12:00-01:50,R,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1107L,55,49313,PRIN OF BIOL LAB,- No-cost:$0 required txtbk cost,0,35,30,10:00-11:50,R,"Mccluskey, Ilysh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108K,2,47841,PRINCIPLES OF BIOLOGY II,NA,4,45,40,12:30-01:45,T R,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108K,3,47342,PRINCIPLES OF BIOLOGY II,NA,4,39,35,02:00-03:15,T R,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108K,W1,47869,PRINCIPLES OF BIOLOGY II,NA,4,61,60,NA,NA,"Rodriguez, Issiah",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108L,51,47467,PRIN OF BIOL LAB,NA,0,29,30,02:00-03:50,M,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108L,52,47498,PRIN OF BIOL LAB,NA,0,16,30,02:00-03:50,T,"Mccluskey, Ilysh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108L,53,47468,PRIN OF BIOL LAB,NA,0,10,30,12:00-01:50,T,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108L,55,48585,PRIN OF BIOL LAB,NA,0,27,30,10:00-11:50,W,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,1108L,W51,47870,PRIN OF BIOL LAB,NA,0,63,60,NA,NA,"Rodriguez, Issiah",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,2251,1,50150,HUM ANATOMY & PHYSIOLOGY I,NA,4,41,38,08:00-08:50,M W F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,2251L,51,50151,HUM ANATOMY & PHYSIO I LAB,NA,0,42,38,06:00-08:00,F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,2252,1,50456,HUM ANATOMY & PHYSIOLOGY II,NA,4,41,30,10:00-10:50,M W F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,2252L,51,50457,HUM ANATOMY & PHYSIO II LAB,NA,0,41,30,01:00-03:50,F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,2260K,1,50373,FOUNDATIONS OF MICROBIOLOGY,NA,4,35,30,09:00-09:50,M W,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,2260L,51,50375,FNDS OF MICROBIOLOGY LAB,NA,0,35,30,11:00-12:50,M W,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,3014,1,49779,ECOLOGY,NA,4,15,30,09:00-09:50,M W F,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,3014L,51,49780,ECOLOGY LAB,NA,0,15,30,03:30-06:00,T,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,3017,1,49491,FORENSICS II,NA,3,10,20,11:00-12:15,M W,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,3222L,1,49315,INVESTIGATIONS IN CELL BIOLOGY,NA,2,25,25,09:30-10:45,T R,"al-Saad, Najeema",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,3223,1,47354,CELL & MOLECULAR BIOLOGY,NA,3,26,35,11:00-11:50,M W F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,3345,1,49781,PRINCIPLES OF TOXICOLOGY,NA,3,16,30,10:00-10:50,M W F,"al-Saad, Najeema",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4111,1,47257,SPECIAL PROJECTS IN BIOLOGY,NA,1,2,0,NA,NA,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4112,1,47387,SPECIAL PROJECTS IN BIOLOGY,NA,1,0,0,NA,NA,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4113,2,49189,SPECIAL PROJECTS IN BIOLOGY,- No-cost:$0 required txtbk cost,1,1,0,NA,NA,"al-Saad, Najeema",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4222,1,47258,BIOLOGY SEMINAR,NA,1,21,30,10:00-10:50,T,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4234K,1,47363,MICROBIOLOGY,NA,4,43,35,08:00-08:50,M W,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4234L,51,47470,MICROBIOLOGY LAB,NA,0,42,35,01:00-02:50,M W,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4234L,52,50510,MICROBIOLOGY LAB,NA,0,1,1,04:00-05:50,M W,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4254K,1,47364,GENETICS,NA,4,38,34,09:00-09:50,M W F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4254L,51,47471,GENETICS LAB,NA,0,38,34,03:00-05:50,M,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4272L,1,47531,BIOTECHNIQUES,NA,2,16,30,02:00-03:15,T R,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4343L,1,47335,SENIOR PROJECT,NA,3,8,0,NA,NA,"Armbruster, Connor",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4343L,3,47344,SENIOR PROJECT,NA,3,8,0,NA,NA,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4343L,6,48121,SENIOR PROJECT,NA,3,5,0,NA,NA,"al-Saad, Najeema",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4384K,1,50391,LIMNOLOGY,NA,4,6,20,09:30-10:45,T R,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOL,4384L,51,50392,LIMNOLOGY LAB,NA,0,6,20,03:30-06:20,R,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,BIOT,5373,1,50115,PLANT TISSUE & CELL CULTURE,NA,3,12,12,09:00-09:50,M W,"Couch, Jonathan",Other,Other
+1,BIOT,5373L,51,50116,PLANT TISS. & CELL CULT. LAB,NA,0,12,12,09:00-10:50,F,"Couch, Jonathan",Other,Other
+1,BIOT,6053,1,48048,BIOINFORMATICS,NA,3,8,10,08:00-09:15,T R,"Fhuere, Alexandra",Other,Other
+1,BIOT,6523,1,49134,COMMUNICATIONS IN BIOTECHNOLOG,NA,3,16,20,02:00-03:15,T R,"al-Suleiman, Nazmiyya",Other,Other
+1,BIOT,6533,1,48399,SPECIALTY PLANT & CROP IMPROVE,NA,3,5,10,11:00-11:50,M W,"Nalla, Adam",Other,Other
+1,BIOT,6533L,51,48452,SPEC PLANTS/CROP IMPROV LAB,NA,0,5,10,02:00-03:50,W,"Nalla, Adam",Other,Other
+1,BIOT,6993,1,47580,MASTER'S THESIS RESEARCH,NA,1,5,20,08:00-08:50,MTWRF,"al-Suleiman, Nazmiyya",Other,Other
+1,BLOG,3133,W1,49322,BUSINESS LOGISTICS,NA,3,31,30,NA,NA,"Fernandez, Jesus",Business Administration,College of Arts and Sciences
+1,BLOG,4213,WH,48920,PHYSICAL DISTRIBUTION,NA,3,10,30,09:30-10:45,T R,"Lovejoy, Othell",Business Administration,College of Arts and Sciences
+1,BLOG,4223,WH,47763,TRANSPORTATION,NA,3,11,30,03:30-04:45,T R,"Kincaid, Ariel",Business Administration,College of Arts and Sciences
+1,BLOG,4233,WH,48080,GLOBAL LOGISTICS,NA,3,11,30,02:00-03:15,T R,"Kincaid, Ariel",Business Administration,College of Arts and Sciences
+1,BLOG,4253,WH,47793,STRATEGIC SUPPLY CHAIN MNGT,NA,3,6,30,11:00-12:15,M W,"Kincaid, Ariel",Business Administration,College of Arts and Sciences
+1,BLOG,4263,WH,48941,LEAN SUPP CHN & LOGISTICS MNGT,NA,3,9,30,12:30-01:45,M W,"Kincaid, Ariel",Business Administration,College of Arts and Sciences
+1,BLOG,4273,WH,48594,SUPPLY CHAIN ANALYSIS,NA,3,6,30,09:30-10:45,M W,"Lovejoy, Othell",Business Administration,College of Arts and Sciences
+1,BLOG,4273,WH2,50498,SUPPLY CHAIN ANALYSIS,NA,3,1,1,08:00-09:15,T R,"Lovejoy, Othell",Business Administration,College of Arts and Sciences
+1,BOTN,2001K,1,47365,GENERAL BOTANY,NA,4,12,30,10:00-10:50,M W F,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BOTN,2001L,51,47367,GENERAL BOTANY LAB,NA,0,12,30,03:30-06:15,R,"al-Abdul, Mamdooh",Natural and Computational Sciences,College of Arts and Sciences
+1,BUSA,1911,W1,49601,LEADERSHIP DEVELOPMENT I,NA,1,40,30,NA,NA,"Hassan, Au",Business Administration,College of Arts and Sciences
+1,BUSA,1911,W2,50500,LEADERSHIP DEVELOPMENT I,NA,1,30,30,NA,NA,"Hassan, Au",Business Administration,College of Arts and Sciences
+1,BUSA,1911,WH,47794,LEADERSHIP DEVELOPMENT I,NA,1,36,30,05:30-06:20,T,"al-Jabbar, Ameen",Business Administration,College of Arts and Sciences
+1,BUSA,1921,W1,49478,LEADERSHIP DEVELOPMENT II,NA,1,37,30,NA,NA,"Hassan, Au",Business Administration,College of Arts and Sciences
+1,BUSA,1921,W2,50501,LEADERSHIP DEVELOPMENT II,NA,1,25,30,NA,NA,"Hassan, Au",Business Administration,College of Arts and Sciences
+1,BUSA,1921,WH,50432,LEADERSHIP DEVELOPMENT II,NA,1,29,30,06:30-07:20,T,"al-Jabbar, Ameen",Business Administration,College of Arts and Sciences
+1,BUSA,2105,WH,47484,COMMUN. IN THE BUSI. ENVIRO,NA,3,34,30,05:30-08:15,M,"Fernandez, Jesus",Business Administration,College of Arts and Sciences
+1,BUSA,2503,W1,47648,BUSINESS INFORMATION SYSTEM,NA,3,34,30,NA,NA,"Baxter, Ryan",Business Administration,College of Arts and Sciences
+1,BUSA,3103,W1,47792,FINANCIAL MANAGEMENT,NA,3,38,30,NA,NA,"Davis, Kheylen",Business Administration,College of Arts and Sciences
+1,BUSA,3203,WH,48433,QUANTITATIVE METHODS,NA,3,28,30,02:00-03:15,T R,"Lovejoy, Othell",Business Administration,College of Arts and Sciences
+1,BUSA,3213,WH,49185,STATS FOR BUSINESS & ECON,NA,3,26,30,02:00-03:15,M W,"Lovejoy, Othell",Business Administration,College of Arts and Sciences
+1,BUSA,3313,WH,47563,"LEGAL,SOCIAL,ETHICAL ENVIRO",NA,3,33,30,02:00-03:15,M W,"Caldera-Velazquez, Sabryna",Business Administration,College of Arts and Sciences
+1,BUSA,4123,WH,47351,INTERNSHIP,- No-cost:$0 required txtbk cost,3,17,30,NA,NA,"Bui, Analie",Business Administration,College of Arts and Sciences
+1,BUSA,4353,WH,50410,INTRO TO INTERNATIONAL BUSINES,NA,3,22,30,09:30-10:45,M W,"Caldera-Velazquez, Sabryna",Business Administration,College of Arts and Sciences
+1,CHEM,1211,1,50031,PRINCIPLE OF CHEMISTRY I,NA,3,41,35,11:00-11:50,M W F,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1211,2,50032,PRINCIPLE OF CHEMISTRY I,NA,3,32,25,09:30-10:45,T R,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1211L,51,50033,PRIN OF CHEM LAB,- $40 or under req txtbks cost,1,23,24,03:00-05:50,M,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1211L,52,50034,PRIN OF CHEM LAB,- $40 or under req txtbks cost,1,22,24,12:00-02:50,T,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1211L,53,50035,PRIN OF CHEM LAB,- $40 or under req txtbks cost,1,20,24,03:00-05:50,T,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1212,1,50036,PRINCIPLE OF CHEMISTRY II,- $40 or under req txtbks cost,3,35,40,09:00-09:50,M W F,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1212,2,50037,PRINCIPLE OF CHEMISTRY II,- $40 or under req txtbks cost,3,22,40,10:00-10:50,M W F,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1212,3,50455,PRINCIPLE OF CHEMISTRY II,- $40 or under req txtbks cost,3,26,40,03:00-03:50,M W F,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1212L,51,50038,PRIN OF CHEM LAB II,- $40 or under req txtbks cost,1,25,24,12:00-02:50,R,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1212L,52,50394,PRIN OF CHEM LAB II,- $40 or under req txtbks cost,1,24,24,03:00-05:50,R,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,1212L,53,50041,PRIN OF CHEM LAB II,- $40 or under req txtbks cost,1,23,24,03:00-05:50,T,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,2221,1,50043,PRIN ORGANIC CHEMISTRY I,NA,3,32,24,09:30-10:45,T R,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,2221L,52,50458,PRIN ORGANIC CHEM LAB,NA,1,26,24,06:00-08:50,T,"el-Sesay, Shaamila",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,2222,1,50045,PRIN ORGANIC CHEMISTRY II,NA,3,46,24,02:00-03:15,T R,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,2222L,51,50047,PRIN ORGANIC CHEM II LAB,NA,1,11,24,11:00-02:50,W,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,2222L,52,50048,PRIN ORGANIC CHEM II LAB,NA,1,29,24,03:00-05:50,W,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,3250,1,50049,PRIN BIOCHEMISTRY,NA,3,20,30,12:30-01:45,T R,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,3250L,51,50050,PRIN BIOCHEM LAB,NA,1,21,30,03:30-06:20,T,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,3342K,1,47317,CHEMICAL INSTRUMENTATION,NA,4,8,16,01:00-01:50,M W F,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,3342L,51,47444,CHEMICAL INSTRUMENTATION LAB,NA,0,8,16,03:00-05:50,W,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,4210,1,50384,SEMINAR,NA,1,10,12,07:00-07:50,R,"Xiong, Joseph",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,4332K,1,47610,PHYSICAL CHEMISTRY II,NA,4,1,12,10:00-10:50,M W F,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,4332L,51,50397,PHYSICAL CHEMISTRY II LAB,NA,0,1,12,06:00-08:50,F,"el-Naim, Naaifa",Natural and Computational Sciences,College of Arts and Sciences
+1,CHEM,4350,1,50383,POLYMER CHEMISTRY,NA,2,3,12,09:00-09:50,M W,"Eberle, Zaeem",Natural and Computational Sciences,College of Arts and Sciences
+1,COMM,1110,1,50007,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,29,25,09:30-10:45,T R,"Brant, Jay",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,2,49324,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,30,25,02:00-03:15,T R,"Brant, Jay",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,3,49325,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,35,25,11:00-11:50,M W F,"Montoya, Moriah",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,5,50433,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,30,25,01:00-01:50,M W F,"Montoya, Moriah",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,6,49944,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,29,25,03:00-03:50,M W F,"Montoya, Moriah",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,W1,47290,PUBLIC SPEAKING,NA,3,37,25,NA,NA,"Montoya, Moriah",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,W2,48631,PUBLIC SPEAKING,NA,3,37,25,NA,NA,"Brant, Jay",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,W3,50009,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,36,25,NA,NA,"Montoya, Moriah",Arts and Communications,College of Arts and Sciences
+1,COMM,1110,W4,50010,PUBLIC SPEAKING,- No-cost:$0 required txtbk cost,3,37,25,NA,NA,"Montoya, Moriah",Arts and Communications,College of Arts and Sciences
+1,COUN,5433,W2,50188,SUB ABUSE & ADDICTIONS COUNSEL,NA,3,5,15,NA,NA,"Riley, Jorge",Other,Other
+1,COUN,5433,WH1,50184,SUB ABUSE & ADDICTIONS COUNSEL,NA,3,5,15,06:30-09:00,R,"Riley, Jorge",Other,Other
+1,COUN,5443,WH,49584,CAREER & LIFE STYLE DEVELOPMEN,NA,3,2,15,06:00-09:00,M,"Riley, Jorge",Other,Other
+1,COUN,5553,W1,49572,MULTICULTURAL COUNSELING,NA,3,13,15,NA,NA,"Piechowski, Kathryn",Other,Other
+1,COUN,5553,W2,49859,MULTICULTURAL COUNSELING,NA,3,7,15,NA,NA,"Reffel, Danielle",Other,Other
+1,COUN,5553,WH,50216,MULTICULTURAL COUNSELING,NA,3,4,15,06:00-09:00,R,"Lovato, Francisco",Other,Other
+1,COUN,5633,70,49585,GROUP THEORY & PROCESS,NA,3,10,15,06:00-09:00,T,"Riley, Jorge",Other,Other
+1,COUN,5633,W1,48408,GROUP THEORY & PROCESS,NA,3,15,15,NA,NA,"Piechowski, Kathryn",Other,Other
+1,COUN,5633,W2,49882,GROUP THEORY & PROCESS,NA,3,13,15,NA,NA,"Piechowski, Kathryn",Other,Other
+1,COUN,5643,W1,49571,FAMILY COUNSELING & GUIDANCE,NA,3,14,15,NA,NA,"Lovan, Timothy",Other,Other
+1,COUN,5650,70,49603,COUNSEL SKILLS & TECHNIQUES,NA,3,8,15,06:00-09:00,R,"el-Ahmad, Fahmi",Other,Other
+1,COUN,5650,W1,50217,COUNSEL SKILLS & TECHNIQUES,NA,3,13,15,NA,NA,"Schmalz, Taylor",Other,Other
+1,COUN,5733,W1,49570,PSYCHOLOGICAL TESTING & EVAL,NA,3,16,16,NA,NA,"Reffel, Danielle",Other,Other
+1,COUN,5733,W2,50464,PSYCHOLOGICAL TESTING & EVAL,NA,3,10,15,NA,NA,"Reffel, Danielle",Other,Other
+1,COUN,5734,70,48951,CLINICAL DIAG &TREATMENT PLAN,NA,3,13,15,06:00-09:00,W,"Lovato, Francisco",Other,Other
+1,COUN,5734,W1,49152,CLINICAL DIAG &TREATMENT PLAN,NA,3,10,15,NA,NA,"Werkele, Leilani",Other,Other
+1,COUN,5734,W2,50186,CLINICAL DIAG &TREATMENT PLAN,NA,3,9,15,NA,NA,"Werkele, Leilani",Other,Other
+1,COUN,5743,WH,49590,CRISIS COUNSELING,NA,3,6,15,06:00-09:00,T,"Lovato, Francisco",Other,Other
+1,CRJU,2000,1,47638,INTRO CRIMINAL JUSTICE,NA,3,29,40,10:00-10:50,M W F,"Prosser, Camille",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,2000,W1,49321,INTRO CRIMINAL JUSTICE,- No-cost:$0 required txtbk cost,3,42,40,NA,NA,"Ehlers, Marnita",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,2001,W1,49320,REPORT WRITING,NA,3,26,40,NA,NA,"Lopez, Zhiyuan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,2010,W1,49821,C J ETHICS,NA,3,22,40,NA,NA,"Prosser, Camille",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,2100,W1,48611,INTRO TO CORRECTIONS,NA,3,24,40,NA,NA,"Cave, Michelle",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3003,W1,50438,JUV. JUS. SYS.,NA,3,34,40,NA,NA,"Nossem, Kayla",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3004,1,47407,THEORIES,NA,3,6,40,12:30-01:45,T R,"Lopez, Zhiyuan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3004,W1,48834,THEORIES,NA,3,8,40,NA,NA,"Nossem, Kayla",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3005,W1,49057,COMM. POLICE,NA,3,12,40,NA,NA,"Prosser, Camille",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3010,W1,49054,CRIMINAL LAW,NA,3,22,40,NA,NA,"Lopez, Zhiyuan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3016,1,49895,FORENSICS I,NA,3,22,40,09:30-10:45,T R,"Hickey, Jordan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3030,1,50081,EVIDENCE,NA,3,12,40,12:30-01:45,T R,"Hickey, Jordan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3050,W1,50082,POLICE ADMINISTRATION,NA,3,19,40,NA,NA,"Hickey, Jordan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3060,W1,49333,RESEARCH METHODS,NA,3,5,40,NA,NA,"Nossem, Kayla",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3101,W1,48833,MINORITIES,NA,3,10,40,NA,NA,"Hickey, Jordan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,3105,1,48608,ALT. TO INCARCERATION,NA,3,7,40,02:00-03:15,T R,"Lopez, Zhiyuan",Behavioral and Social Sciences,College of Arts and Sciences
+1,CRJU,4080,W1,48363,PRACTICUM,NA,6,21,25,NA,NA,"Nossem, Kayla",Behavioral and Social Sciences,College of Arts and Sciences
+1,CSCI,1153,1,47337,INTRO TO COMPUTERS,NA,3,35,30,09:30-10:45,T R,"Garcia, Fidel",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1153,2,50181,INTRO TO COMPUTERS,NA,3,31,30,05:00-06:15,T R,"John, Brittany",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1153,W1,47518,INTRO TO COMPUTERS,NA,3,34,35,NA,NA,"Thach, Caleb",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1153,W2,47393,INTRO TO COMPUTERS,NA,3,37,35,NA,NA,"Steele, Kendra",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1153,W3,50061,INTRO TO COMPUTERS,NA,3,41,40,NA,NA,"Thach, Caleb",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1153,W4,50385,INTRO TO COMPUTERS,NA,3,35,35,NA,NA,"John, Brittany",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1301,1,47389,PRIN PROGRAM I,NA,4,35,30,03:30-04:45,T R,"Garcia, Fidel",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1301L,51,47430,PRIN PROGRAM I,NA,0,35,30,02:00-03:40,M,"Garcia, Fidel",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1302,1,47851,PRIN OF PROGRAM II,NA,4,9,30,10:00-10:50,M W F,"Thach, Caleb",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,1302L,51,47852,PRIN OF PROGRAM II LAB,NA,0,9,30,02:00-03:40,F,"Thach, Caleb",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,3110,1,50101,SECURITY SCRIPT PROGRAMMING,NA,3,15,30,12:30-01:45,T R,"Garcia, Fidel",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,3150,W1,47280,DATA COMMUNICATIONS & NETWORKS,NA,3,15,30,NA,NA,"Steele, Kendra",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,3333,1,47391,JAVA,NA,3,12,25,08:00-08:50,M W F,"al-Agha, Kaarim",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,3351,1,47333,COMPUTER ORGAN/ASSEMBLY LANG,NA,3,20,30,12:00-12:50,M W F,"Manzanares, Alex",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,3410,1,47516,DATA STRUCTURES,NA,3,25,30,01:00-01:50,M W F,"Thach, Caleb",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,3900,1,49557,DATA SCI & MACHINE LEARNING,NA,3,9,25,03:30-04:45,T R,"Steele, Kendra",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,4320,1,48598,SOFTWARE ENGINEERING,NA,3,22,30,05:00-06:15,T R,"Garcia, Fidel",Natural and Computational Sciences,College of Arts and Sciences
+1,CSCI,4999,1,49388,SPECIAL TOPICS IN CSCI/CSIS,NA,3,12,15,11:00-12:15,T R,"Smith, Courtney",Natural and Computational Sciences,College of Arts and Sciences
+1,CSIS,2000,1,48673,INTRO TO INFORMATION SECURITY,NA,3,10,25,12:30-01:45,T R,"Steele, Kendra",Other,Other
+1,CSIS,3743,1,47864,WEB DEVELOPMENT,NA,3,16,30,10:00-10:50,M W F,"Manzanares, Alex",Other,Other
+1,DATA,1501,1,50108,INTRODUCTION TO DATA SCIENCES,- No-cost:$0 required txtbk cost,3,3,35,03:00-04:45,T R,"el-Shaker, Fakeeha",Other,Other
+1,ECON,2105,W1,49479,PRIN OF MACROECON,NA,3,35,30,NA,NA,"al-Kazi, Haashid",Business Administration,College of Arts and Sciences
+1,ECON,2105,WH,47411,PRIN OF MACROECON,NA,3,34,30,09:30-10:45,T R,"al-Kazi, Haashid",Business Administration,College of Arts and Sciences
+1,ECON,2106,W1,47262,PRINCIPLES OF MICROECONOMICS,NA,3,28,30,NA,NA,"al-Kazi, Haashid",Business Administration,College of Arts and Sciences
+1,ECON,2106,WH,49480,PRINCIPLES OF MICROECONOMICS,NA,3,27,30,02:00-03:15,T R,"al-Kazi, Haashid",Business Administration,College of Arts and Sciences
+1,ECON,3113,1,50471,INTERMEDIATE MACROECONOMICS,NA,3,16,30,05:30-08:15,R,"Torres, Adam",Business Administration,College of Arts and Sciences
+1,ECSP,3000,W1,49874,EXPLORE OF LEARN/CREATIVE ART,NA,1,14,20,NA,NA,"Flores, David",Other,Other
+1,ECSP,3020,1,50105,EFFECTIVE READ & WRIT METHODS,NA,3,5,25,12:30-01:45,M W,"Dunn, Colton",Other,Other
+1,ECSP,3131,1,47532,NATURE & CURR NEEDS ECSP LEARN,NA,3,4,30,10:00-01:00,F,"Bridges-Farrow, Chelsea",Other,Other
+1,ECSP,3132,1,47576,CLASS ROOM MNGT. STRATEGIES,NA,3,4,25,02:00-03:15,T R,"al-Iman, Tahiyya",Other,Other
+1,ECSP,3332,1,48173,MTHDS TEACH LANG ARTS/READ,- No-cost:$0 required txtbk cost,3,12,25,05:30-08:30,M,"Villegas, Iris",Other,Other
+1,ECSP,3432,1,48174,METHODS OF TEACH SOCIAL STUD,NA,3,10,25,05:30-08:30,R,"al-Salek, Manaara",Other,Other
+1,ECSP,3731,1,48077,EARLY CHILDHOOD/SPEC ED PRACT.,- No-cost:$0 required txtbk cost,1,9,25,08:00-12:00,MTWRF,"Leo, Samuel",Other,Other
+1,ECSP,4000,1,48902,CHAR LEARNERS WITH SPEC. NEEDS,NA,2,6,25,05:30-08:30,W,"Sandoval, Antonio",Other,Other
+1,ECSP,4895,1,47567,DIRECTEDTEACHING/SEMINAR,- No-cost:$0 required txtbk cost,12,7,25,04:30-07:30,M W,"al-Iman, Tahiyya",Other,Other
+1,ECSP,5424,W1,49899,DIVERSITY & DIFFERENTIATED IN,NA,3,6,15,05:50-08:50,R,"Sandoval, Antonio",Other,Other
+1,ECSP,5426,WH1,50107,TRENDS & ISSUES IN MATH/ECE,NA,3,4,10,05:30-08:30,M,"Chau, Austin",Other,Other
+1,ECSP,5427,70,49938,ETHICS AND THE LAW,NA,3,8,12,09:00-12:00,S,"Sandoval, Antonio",Other,Other
+1,ECSP,5429,70,49610,FAMILY SUPPORT & INTERVENTION,NA,3,3,20,05:30-08:30,T,"al-Iman, Tahiyya",Other,Other
+1,EDMG,3131,1,49877,NATURE AND NEEDS IN MG,NA,3,4,15,02:00-05:00,F,"Bridges-Farrow, Chelsea",Other,Other
+1,EDMG,3132,1,49878,CLASSROOM MANAGEMENT STRAT,NA,3,4,15,02:00-03:15,T R,"al-Iman, Tahiyya",Other,Other
+1,EDMG,3232,W1,50484,MTHDS OF TEACH. SCI MG,NA,3,1,25,NA,NA,"Lalau-Hitchcock, Diksha",Other,Other
+1,EDMG,3332,1,48078,MTHDS. TEAC. LANG. ARTS/READMG,- No-cost:$0 required txtbk cost,3,9,20,05:30-08:30,M,"Villegas, Iris",Other,Other
+1,EDMG,3432,1,48177,MTHDS TEACH. SOCIAL STUDIES,NA,3,8,20,05:30-08:30,R,"al-Salek, Manaara",Other,Other
+1,EDMG,3731,1,48076,MIDDLE SCHOOL PRACTICUM I,- No-cost:$0 required txtbk cost,3,7,20,08:00-12:00,MTWRF,"Leo, Samuel",Other,Other
+1,EDMG,3732,1,50090,MIDDLE SCHOOL PRACTICUM II,NA,3,3,20,08:00-12:00,MTWRF,"Leo, Samuel",Other,Other
+1,EDMG,4895,WH,47493,DIRECTED TEACHING/SEMINAR,- No-cost:$0 required txtbk cost,12,5,25,07:00-03:00,MTWRF,"Lalau-Hitchcock, Diksha",Other,Other
+1,EDMG,5613,W1,50218,CURR NEEDS OF TRANS LEARNER,NA,3,2,20,NA,NA,"al-Iman, Tahiyya",Other,Other
+1,EDSC,5993,W1,47538,SCHOOL COUNSELING INTERN II,- No-cost:$0 required txtbk cost,3,10,12,NA,NA,"Taherkhani, Vu",Other,Other
+1,EDSC,5993,W2,49861,SCHOOL COUNSELING INTERN II,NA,3,0,8,NA,NA,"Taherkhani, Vu",Other,Other
+1,EDSC,6123,W1,48403,DIAGNOSIS AND TREATMENT,NA,3,9,15,NA,NA,"Schmalz, Taylor",Other,Other
+1,EDUC,2110,1,49869,ISSUES IN EDUCATION,NA,3,45,40,05:30-08:30,W,"Simmons, Danita",Other,Other
+1,EDUC,2110P,WH,49870,PRE PROFESSIONAL BLOCK PRAC.,- No-cost:$0 required txtbk cost,0,49,45,08:00-12:00,T R,"Villegas, Iris",Other,Other
+1,EDUC,2120,1,49871,PERSPECTIVES ON DIVERSITY,NA,3,48,45,03:30-04:15,T R,"Halling, Amy",Other,Other
+1,EDUC,2130,WH,49872,LEARN AND TEACH,NA,3,49,48,02:00-03:15,T R,"Lalau-Hitchcock, Diksha",Other,Other
+1,EDUC,2503,1,49873,EXCEPTIONALITIES & INSTRUCTION,NA,3,29,30,05:30-08:30,M,"Sandoval, Antonio",Other,Other
+1,EEGG,2114,1,48344,CIRCUITS II,NA,4,5,10,09:00-09:50,M W F,"Manzanares, Alex",Other,Other
+1,EEGG,2114L,51,48345,CIRCUITS II - LAB,NA,0,2,10,04:00-05:40,R,"Manzanares, Alex",Other,Other
+1,ELET,1211,1,47589,AC CIRCUIT ANALYSIS,NA,4,17,30,11:00-11:50,M W F,"al-Gad, Fikriyya",Other,Other
+1,ELET,1211%,51,47590,AC CIRCUIT LAB,NA,0,17,30,03:00-04:50,W,"al-Gad, Fikriyya",Other,Other
+1,ELET,2310,1,47398,ELECTRONIC DEVICES AND CIRCUIT,NA,4,15,30,10:00-10:50,M W F,"al-Gad, Fikriyya",Other,Other
+1,ELET,2310L,51,47438,ELECT DEVICES A-LAB,NA,0,15,30,03:00-04:50,M,"al-Gad, Fikriyya",Other,Other
+1,ELET,2500,1,48331,PRIN OF DIGITAL SYSTEMS,NA,3,20,20,01:00-01:50,M W F,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4500,1,49700,COMPUTER SYSTEMS,NA,3,8,20,11:00-11:50,M W,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4500L,51,49701,COMPUTER SYSTEMS LAB,NA,0,8,20,03:00-04:50,M,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4501,1,48333,MICROPROCESSOR APPLICATION,NA,3,10,20,10:00-10:50,M W,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4501L,51,48334,MICROPROCESSOR APPL. LAB,NA,0,10,20,03:00-04:50,W,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4502,1,50446,MACHINE LEARNING FOR ROBOTICS,NA,4,5,20,12:00-12:50,M W F,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4502L,51,50447,MACHINE LEARN FOR ROBOTICS LAB,NA,0,5,20,03:00-04:50,F,"el-Tabatabai, Hibbaan",Other,Other
+1,ELET,4510,1,47842,INDUSTRIAL ELECTRONICS CONTROL,NA,3,8,20,01:00-01:50,M W,"al-Gad, Fikriyya",Other,Other
+1,ELET,4510L,51,47843,INDUSTRIAL ELECTRONICS CONTROL,NA,0,8,20,01:00-02:50,T,"al-Gad, Fikriyya",Other,Other
+1,ELET,4901,1,47927,SPECIAL TOPICS AND PROJECTS,NA,1,6,20,03:00-04:50,T,"al-Gad, Fikriyya",Other,Other
+1,ENGG,2133,1,48346,ENGINEERING MECHANICS II,NA,3,5,10,03:00-03:50,M W F,"Manzanares, Alex",Other,Other
+1,ENGL,999,W1,48782,SUPPORT FOR ENGLISH,- No-cost:$0 required txtbk cost,2,15,35,NA,NA,"Allen, Kerrian",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,1,49673,COMPOSITION I,- No-cost:$0 required txtbk cost,3,23,30,09:00-09:50,M W F,"Martinez, Sarah",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,2,47800,COMPOSITION I,- $40 or under req txtbks cost,3,29,30,11:00-11:50,M W F,"Martinez, Sarah",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,3,50093,COMPOSITION I,- No-cost:$0 required txtbk cost,3,26,30,01:00-01:50,M W F,"Martinez, Sarah",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,4,49231,COMPOSITION I,- No-cost:$0 required txtbk cost,3,29,30,02:00-02:50,M W F,"Martinez, Sarah",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,5,50287,COMPOSITION I,- No-cost:$0 required txtbk cost,3,19,30,03:00-03:50,M W F,"Martinez, Sarah",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,6,49674,COMPOSITION I,- No-cost:$0 required txtbk cost,3,17,35,08:00-09:15,T R,"Allen, Kerrian",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,7,49763,COMPOSITION I,- No-cost:$0 required txtbk cost,3,36,35,09:30-10:45,T R,"Allen, Kerrian",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,8,49765,COMPOSITION I,- No-cost:$0 required txtbk cost,3,26,35,12:30-01:45,T R,"Allen, Kerrian",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,9,49767,COMPOSITION I,- No-cost:$0 required txtbk cost,3,18,35,02:00-03:15,T R,"Allen, Kerrian",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,11,50361,COMPOSITION I,- No-cost:$0 required txtbk cost,3,17,30,09:30-10:45,T R,"Hand, Dallas",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,12,50362,COMPOSITION I,- No-cost:$0 required txtbk cost,3,11,30,12:30-01:45,T R,"Hand, Dallas",Arts and Communications,College of Arts and Sciences
+1,ENGL,1101,13,50363,COMPOSITION I,- No-cost:$0 required txtbk cost,3,15,30,02:00-03:15,T R,"Hand, Dallas",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,1,48590,COMPOSITION II,- $40 or under req txtbks cost,3,37,35,09:00-09:50,M W F,"Cross, Jon",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,2,48591,COMPOSITION II,- $40 or under req txtbks cost,3,36,35,10:00-10:50,M W F,"Cross, Jon",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,3,48789,COMPOSITION II,- $40 or under req txtbks cost,3,30,35,02:00-02:50,M W F,"Cross, Jon",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,4,49766,COMPOSITION II,- No-cost:$0 required txtbk cost,3,32,35,03:00-03:50,M W F,"Cross, Jon",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,5,49768,COMPOSITION II,- No-cost:$0 required txtbk cost,3,26,35,08:00-08:50,M W F,"Brown, Triayna",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,6,47265,COMPOSITION II,- $40 or under req txtbks cost,3,25,35,11:00-11:50,M W F,"Brown, Triayna",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,7,49550,COMPOSITION II,- No-cost:$0 required txtbk cost,3,30,35,12:00-12:50,M W F,"Brown, Triayna",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,8,49551,COMPOSITION II,- No-cost:$0 required txtbk cost,3,30,35,01:00-01:50,M W F,"Brown, Triayna",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,9,50365,COMPOSITION II,- No-cost:$0 required txtbk cost,3,29,35,02:00-02:50,M W F,"Brown, Triayna",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,10,50367,COMPOSITION II,- No-cost:$0 required txtbk cost,3,20,35,08:00-09:15,T R,"al-Mirza, Mahmood",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,11,50368,COMPOSITION II,- No-cost:$0 required txtbk cost,3,28,35,09:30-10:45,T R,"al-Mirza, Mahmood",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102,12,50369,COMPOSITION II,- No-cost:$0 required txtbk cost,3,28,35,12:30-01:45,T R,"al-Mirza, Mahmood",Arts and Communications,College of Arts and Sciences
+1,ENGL,1102H,WH1,50370,HONORS COMPOSITION II,NA,3,10,25,03:30-04:45,T R,"al-Mirza, Mahmood",Arts and Communications,College of Arts and Sciences
+1,ENGL,2111,WH1,50466,WORLD LITERATURE,- No-cost:$0 required txtbk cost,3,43,35,02:00-03:15,T R,"al-Mirza, Mahmood",Arts and Communications,College of Arts and Sciences
+1,ENGL,3343,W1,49875,CONTEMPORARY AMERICAN LITERATU,NA,3,5,15,NA,NA,"Villegas, Iris",Arts and Communications,College of Arts and Sciences
+1,ENGL,3500,W1,50193,GRAMMAR FOR TEACH & WRITERS,NA,3,6,20,NA,NA,"al-Mirza, Mahmood",Arts and Communications,College of Arts and Sciences
+1,ENGL,4520,W1,49876,LIT. FOR THE MIDDLE GRADES,NA,3,5,15,NA,NA,"Villegas, Iris",Arts and Communications,College of Arts and Sciences
+1,ENGL,5023,W1,49906,PRE-ADOLESCENT LITERATURE,NA,3,4,20,NA,NA,"Nelson, Alexander",Arts and Communications,College of Arts and Sciences
+1,EPSY,5513,W1,49261,PRE-ADOLESCENT PSYCHOLOGY,NA,3,6,20,NA,NA,"al-Iman, Tahiyya",Other,Other
+1,FCSC,2833,W1,47324,CONSUMER ECONOMICS,NA,3,15,35,NA,NA,"Mccormick, Jeremy",Other,Other
+1,FCSC,3872,W1,49335,COMM INVOLVEMNT & VOL,NA,2,11,25,NA,NA,"Thortvedt, Kevin",Other,Other
+1,FCSC,3903,1,50509,SUPERVISED FIELD EXPERIENCE,- No-cost:$0 required txtbk cost,1,3,2,09:00-12:00,S,"Cheng, Lucy",Other,Other
+1,FCSC,3913,1,47659,HOSPITALITY & HOME MANAGEME,NA,3,5,12,05:30-09:30,T R,"Thortvedt, Kevin",Other,Other
+1,FDNU,3803,W1,49568,UNDERSTANDING NUTRITION,NA,3,6,20,NA,NA,"Gilbert, Sonja",Other,Other
+1,FDNU,4893,W1,49794,MEDICAL NUTRITION THERAPY II,NA,3,6,20,NA,NA,"Robles, Brian",Other,Other
+1,FDNU,4903,1,48476,INSTITUTIONAL FOODS,NA,3,6,20,09:00-09:50,M W,"Cheng, Lucy",Other,Other
+1,FDNU,4903L,51,48477,INSTITUTIONAL FOODS LAB,NA,0,6,20,09:00-10:50,F,"Cheng, Lucy",Other,Other
+1,FREN,1002,W1,48137,ELEMENTARY FRENCH II,NA,3,10,25,NA,NA,"el-Jaber, Sitaara",Arts and Communications,College of Arts and Sciences
+1,FREN,2001,W1,49337,INTERMEDIATE FRENCH I,NA,3,12,25,NA,NA,"el-Jaber, Sitaara",Arts and Communications,College of Arts and Sciences
+1,FVSU,100,1,47327,INTRO TO UNIV,NA,1,43,50,11:00-11:50,T R,"al-Idris, Musheera",Other,Other
+1,FVSU,100,2,47422,INTRO TO UNIV (ORI)/AGRI,NA,1,58,50,11:00-11:50,T R,"Landin, Yahaira",Other,Other
+1,FVSU,100,3,47423,INTRO TO UNIV,NA,1,48,50,11:00-11:50,T R,"Hoang, Katelyn",Other,Other
+1,FVSU,100,4,47386,INTRO TO UNIV,NA,1,38,35,11:00-11:50,T R,"Dumas, Gabriela",Other,Other
+1,FVSU,100,5,49377,INTRO TO UNIV,NA,1,29,30,11:00-11:50,T R,"Hector, Kristjan",Other,Other
+1,FVSU,100,6,50388,INTRO TO UNIV,NA,1,77,80,11:00-11:50,T R,"Strecker, Jessica",Other,Other
+1,FVSU,100,W1,47421,INTRO TO UNIV/ ONLINE,NA,1,46,50,NA,NA,"Strecker, Jessica",Other,Other
+1,FVSU,500,W5E,49522,GRADUATE STUDIES ORIENTATION,NA,0,7,10,04:00-05:15,W,"al-Iman, Tahiyya",Other,Other
+1,GEOG,1231,1,47403,HUMAN GEOGRAPHY,NA,3,32,35,09:30-10:45,T R,"el-Abood, Tameema",Behavioral and Social Sciences,College of Arts and Sciences
+1,GEOG,1231,2,47535,HUMAN GEOGRAPHY,NA,3,32,35,12:30-01:45,T R,"el-Abood, Tameema",Behavioral and Social Sciences,College of Arts and Sciences
+1,GEOG,1231,3,48807,HUMAN GEOGRAPHY,NA,3,27,35,02:00-03:15,T R,"el-Abood, Tameema",Behavioral and Social Sciences,College of Arts and Sciences
+1,GEOG,1231,4,49786,HUMAN GEOGRAPHY,NA,3,18,35,03:30-04:45,T R,"el-Abood, Tameema",Behavioral and Social Sciences,College of Arts and Sciences
+1,GEOL,1122,1,50402,EARTH HISTORY,NA,4,6,10,09:30-10:45,T R,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,GEOL,1122L,51,50403,EARTH HIST-LAB,NA,0,6,10,07:00-08:50,W,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,GEOL,3104,W1,48053,CLIMATE CHANGE:EARTH IN FUTURE,NA,4,4,20,NA,NA,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,GEOL,3104L,51,48054,CLIMATE CHANGE: ERTH & FUT LAB,NA,0,3,20,03:15-05:55,W,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,GEOL,4202,1,50053,APP OF COMPUT MTHDS IN SCI/RES,NA,2,1,10,05:00-06:40,R,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,GEOL,5203,0,49919,ENVIRONMENTAL GEOLOGY,NA,3,4,10,05:00-07:30,T,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,GERO,3030,W1,49269,MENTAL AND WELL-BEING & AGING,NA,3,24,25,NA,NA,"Gooding, Benjamin",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,1111,WH,49528,SURV WRLD CIV ERLY MODERN,- No-cost:$0 required txtbk cost,3,45,40,09:00-09:50,M W F,"Henderson, Melissa",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,1111,WH2,50406,SURV WRLD CIV ERLY MODERN,- No-cost:$0 required txtbk cost,3,50,40,10:00-10:50,M W F,"Henderson, Melissa",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,1112,WH,47408,SRV WRLD CIV FR MODRN TIME,NA,3,45,40,11:00-11:50,M W F,"Henderson, Melissa",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,1112,WH2,50407,SRV WRLD CIV FR MODRN TIME,NA,3,47,40,01:00-01:50,M W F,"Henderson, Melissa",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,1112,WH3,50408,SRV WRLD CIV FR MODRN TIME,NA,3,43,40,06:00-07:15,T R,"Greenstein, Derrick",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2111,1,47506,US HIS TO PST CV WAR,NA,3,35,40,09:00-09:50,M W F,"Curry, Jossie",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2111,2,47277,US HIS TO PST CV WAR,NA,3,39,40,10:00-10:50,M W F,"Curry, Jossie",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2111,3,50409,US HIS TO PST CV WAR,NA,3,41,40,01:00-01:50,M W F,"Curry, Jossie",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2112,WH,47278,US-PST CV WR TO PRESENT,NA,3,40,40,09:30-10:45,T R,"el-Kanan, Mufeed",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2112,WH2,48347,US-PST CV WR TO PRESENT,NA,3,44,40,12:30-01:45,T R,"el-Kanan, Mufeed",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2112,WH3,48813,US-PST CV WR TO PRESENT,NA,3,45,40,02:00-03:15,T R,"el-Kanan, Mufeed",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,2112,WH4,50502,US-PST CV WR TO PRESENT,- No-cost:$0 required txtbk cost,3,17,30,06:00-07:15,T R,"Hickey, Garret",Behavioral and Social Sciences,College of Arts and Sciences
+1,HIST,6975,W1,50214,SPECIAL TOPICS IN HISTORY,NA,3,4,25,NA,NA,"Findley, Leigh",Behavioral and Social Sciences,College of Arts and Sciences
+1,HLTH,2121,1,49241,HEALTHFUL LIVING,NA,2,5,25,11:00-11:50,T R,"al-Ahmadi, Ibrahim",Other,Other
+1,HLTH,3130,1,49865,SUBSTANCE USE & ABUSE,NA,3,9,50,09:00-10:30,T R,"al-Ahmadi, Ibrahim",Other,Other
+1,HORT,3852,1,50208,ORG/CONV VEG & FRUIT GARDEN,NA,3,4,20,12:30-01:45,T R,"Sotam, Vanessa",Other,Other
+1,HORT,3852L,51,50209,ORG/CONV VEG & FRUIT GAR LAB,NA,0,4,20,03:30-05:20,T,"Sotam, Vanessa",Other,Other
+1,HORT,4813,1,50459,NURSERY MANAGEMENT,NA,3,4,20,12:30-01:45,T R,"Fhuere, Alexandra",Other,Other
+1,HORT,4813L,51,50460,NURSERY MANAGEMENT LAB,NA,0,4,20,03:30-05:20,F,"Fhuere, Alexandra",Other,Other
+1,HPER,2000,1,49866,DEPARTMENTAL SEMINAR,NA,0,4,10,07:00-07:50,F,"Eckert, Kristjan",Other,Other
+1,HPER,3131,1,50062,MEASUREMENT & EVAL IN PHYS. ED,NA,3,2,20,06:00-07:30,M W,"Eckert, Kristjan",Other,Other
+1,HPER,3902,1,49080,TEACHING PRACTICUM IN HPE II,NA,2,4,10,10:00-10:50,M W,"Simmons, Danita",Other,Other
+1,HPER,4431,1,49081,INSTRUCTIONAL DESIGN IN HPE II,NA,3,6,10,01:00-02:20,M W,"Simmons, Danita",Other,Other
+1,HPER,4500,1,49082,PHYSIOLOGY OF EXERCISE,NA,3,9,10,05:00-07:30,T R,"Eckert, Kristjan",Other,Other
+1,HPER,4617,1,49867,SR. SEMINAR IN HPE,NA,1,1,5,05:00-06:00,M,"Simmons, Danita",Other,Other
+1,HPER,4895,WH,49868,DIRECTED TEACHING/SEMINAR,NA,12,0,10,08:00-04:00,MTWRF,"Simmons, Danita",Other,Other
+1,ICDV,2813,1,47649,LIFE SPAN DEV/CON INFULN,NA,3,9,30,12:30-01:45,T R,"Ali, Justin",Other,Other
+1,ICDV,3842,1,47652,PARENT CHILD RELATIONS,NA,2,5,30,06:00-07:50,W,"Hypio, Alec",Other,Other
+1,ICDV,4909,1,47656,DIR OBSERV/SUPERVISION,NA,9,2,18,08:00-04:50,MTWRF,"Cheng, Lucy",Other,Other
+1,MAED,5030,W1,49902,Geometry,NA,3,1,15,NA,NA,"Lalau-Hitchcock, Diksha",Other,Other
+1,MATH,998,1,49246,SUPPORT FOR MATH MODELING,- No-cost:$0 required txtbk cost,2,15,30,12:00-12:50,M W,"Melara, Jovanni",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,998,2,48142,SUPPORT FOR MATH MODELING,- No-cost:$0 required txtbk cost,2,13,0,01:00-01:50,M W,"Mergia, Jalond",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,998,3,48143,SUPPORT FOR MATH MODELING,- No-cost:$0 required txtbk cost,2,16,20,12:00-12:50,T R,"Yu, Jing",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,998,W1,49987,SUPPORT FOR MATH MODELING,- No-cost:$0 required txtbk cost,2,15,25,NA,NA,"Melara, Jovanni",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,999,1,49303,SUPPORT FOR COLLEGE ALGEBRA,- No-cost:$0 required txtbk cost,2,12,25,12:00-12:50,T R,"el-Nassif, Safwa",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,999,2,48871,SUPPORT FOR COLLEGE ALGEBRA,- No-cost:$0 required txtbk cost,2,12,25,10:00-10:50,M W,"Awtrey, Jason",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,999,W1,50055,SUPPORT FOR COLLEGE ALGEBRA,- No-cost:$0 required txtbk cost,2,14,20,NA,NA,"el-Nassif, Safwa",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1101,1,47495,MATHEMATICAL MODELING,NA,3,26,40,09:00-09:50,M W F,"Ramos, Daniel",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1101,2,48781,MATHEMATICAL MODELING,NA,3,22,0,09:30-10:45,T R,"Yu, Jing",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1101,3,48011,MATHEMATICAL MODELING,NA,3,22,25,03:30-04:45,T R,"Melara, Jovanni",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1101,4,49245,MATHEMATICAL MODELING,NA,3,18,20,02:00-03:15,M W,"Mergia, Jalond",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1101,5,48105,MATHEMATICAL MODELING,NA,3,15,20,12:30-01:45,T R,"Melara, Jovanni",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1101,W1,49988,MATHEMATICAL MODELING,NA,3,31,0,NA,NA,"Melara, Jovanni",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1111,1,49306,COLLEGE ALGEBRA,#NAME?,3,38,40,11:00-11:50,M W F,"Mcroy, Charneissha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1111,2,47297,COLLEGE ALGEBRA,- No-cost:$0 required txtbk cost,3,38,40,02:00-03:15,T R,"el-Shaker, Fakeeha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1111,3,49307,COLLEGE ALGEBRA,#NAME?,3,38,40,09:30-10:45,T R,"Barron, Kelly",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1111,4,47406,COLLEGE ALGEBRA,- No-cost:$0 required txtbk cost,3,32,40,01:00-01:50,M W F,"Ramos, Daniel",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1111,5,47432,COLLEGE ALGEBRA,- No-cost:$0 required txtbk cost,3,32,40,12:30-01:45,T R,"Barron, Kelly",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1111,W1,50056,COLLEGE ALGEBRA,#NAME?,3,50,35,NA,NA,"el-Nassif, Safwa",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1112,1,47299,TRIGONOMETRY,NA,3,33,40,08:00-09:15,T R,"Barron, Kelly",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1112,2,48429,TRIGONOMETRY,- No-cost:$0 required txtbk cost,3,39,40,02:00-03:15,M W,"Ellis, Ciana",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1113,1,47433,PRECALCULUS,NA,4,42,40,12:00-12:50,MTWR,"el-Shaker, Fakeeha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1113,2,50213,PRECALCULUS,#NAME?,4,35,40,02:00-02:50,MTWR,"Barron, Kelly",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1113H,WH1,50449,HONORS PRECALCULUS,NA,4,0,40,01:00-01:50,MTWR,"el-Nassif, Safwa",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1150,1,47862,CALCULUS FOR BUS. & ECONOMICS,NA,4,35,40,10:00-10:50,MTWR,"el-Shaker, Fakeeha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1154,1,47300,CALCULUS I,NA,4,45,40,09:00-09:50,MTWR,"el-Shaker, Fakeeha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1154,2,47301,CALCULUS I,NA,4,42,40,04:00-04:50,MTWR,"Mcroy, Charneissha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,1401,1,49071,ELEMENTARY STATISTICS,#NAME?,3,44,40,02:00-03:15,T R,"Ellis, Ciana",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,2164,1,47598,CALCULUS II,NA,4,19,40,01:00-01:50,MTWR,"Awtrey, Jason",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,2174,1,50381,CALCULUS III,#NAME?,4,10,40,02:00-02:50,MTWR,"Awtrey, Jason",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,2203,1,47629,INTRO LINEAR ALGEBRA,NA,3,25,40,03:30-04:45,T R,"Ellis, Ciana",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,2253,1,47334,DISCRETE MATH,NA,3,33,40,11:00-11:50,M W F,"Ramos, Daniel",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,3100,W1,50506,DISCRETE MATH & STATISTICS,NA,3,4,20,NA,NA,"Lalau-Hitchcock, Diksha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,3273,W1,50511,THEORY OF NUMBERS,NA,3,1,1,NA,NA,"al-Agha, Kaarim",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,3323,1,47303,COLLEGE GEOMETRY,NA,3,12,30,09:00-09:50,M W F,"al-Agha, Kaarim",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,3400,WH,50465,GEOMETRY FOR K-8 TEACHERS,NA,3,7,20,05:30-08:30,W,"Miramontes, Jonnie",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,3510,W1,50469,ALGEBRAIC CONCEPTS,NA,3,9,25,NA,NA,"Lalau-Hitchcock, Diksha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,4143,1,47560,COMPLEX VARIABLES,NA,3,9,30,12:30-01:45,T R,"Mcroy, Charneissha",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,4243,1,47304,LINEAR ALGEBRA II,NA,3,7,30,09:30-10:45,T R,"Awtrey, Jason",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,4343,1,47305,ADVANCED CALCULUS,NA,3,5,30,11:00-11:50,M W F,"al-Agha, Kaarim",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,4363,1,48869,NUMEMRICAL METHODS,NA,3,5,30,12:00-12:50,M W F,"al-Agha, Kaarim",Natural and Computational Sciences,College of Arts and Sciences
+1,MATH,4390,1,48254,MATHEMATICS REVIEW,NA,2,5,30,02:00-02:50,M W,"el-Nassif, Safwa",Natural and Computational Sciences,College of Arts and Sciences
+1,MCMM,2313,1,50001,INTRODUCTION TO BROADCASTING,NA,3,5,25,01:00-01:50,M W F,"Griggs, Mercedes",Arts and Communications,College of Arts and Sciences
+1,MCMM,3123,1,50413,MASS MEDIA LAW & ETHICS,- No-cost:$0 required txtbk cost,3,22,25,09:00-09:50,M W F,"Griggs, Mercedes",Arts and Communications,College of Arts and Sciences
+1,MCMM,3125,1,47614,ELECTRONIC MEDIA,NA,3,17,25,05:00-07:50,M,"Burback, Sarah",Arts and Communications,College of Arts and Sciences
+1,MCMM,3143,WH1,48918,WRITING FOR DIGITAL MEDIA,- No-cost:$0 required txtbk cost,3,8,20,02:00-02:50,M W F,"Burback, Sarah",Arts and Communications,College of Arts and Sciences
+1,MCMM,3333,1,50415,VIDEO EDITING I,NA,3,4,20,05:00-07:50,T,"el-Begum, Sahl",Arts and Communications,College of Arts and Sciences
+1,MCMM,4163,1,50417,PHOTOJOURNALISM,- No-cost:$0 required txtbk cost,3,14,25,12:30-01:45,T R,"Armstrong, Darnell",Arts and Communications,College of Arts and Sciences
+1,MCMM,4193,1,50414,TV PRODUCTION I,- No-cost:$0 required txtbk cost,3,3,20,02:00-02:50,M W F,"Griggs, Mercedes",Arts and Communications,College of Arts and Sciences
+1,MCMM,4243,1,50004,MULTI-MEDIA PRESENTATIONS,NA,3,3,25,11:00-11:50,M W F,"Burback, Sarah",Arts and Communications,College of Arts and Sciences
+1,MCMM,4273,1,50000,CORPORATE COMMUNICATIONS,- No-cost:$0 required txtbk cost,3,6,25,09:30-10:45,T R,"Armstrong, Darnell",Arts and Communications,College of Arts and Sciences
+1,MCMM,4283,1,49844,MASS COMMUNICATION RESEARCH,- No-cost:$0 required txtbk cost,3,13,25,08:00-08:50,M W F,"Griggs, Mercedes",Arts and Communications,College of Arts and Sciences
+1,MCMM,4293,1,49060,PERFORMANCE IN MEDIA,- No-cost:$0 required txtbk cost,3,3,25,02:00-03:15,T R,"Armstrong, Darnell",Arts and Communications,College of Arts and Sciences
+1,MCMM,4323,1,49722,INTERNSHIP,- No-cost:$0 required txtbk cost,3,1,25,06:00-09:00,T,"Burback, Sarah",Arts and Communications,College of Arts and Sciences
+1,MCMM,4361,1,50003,CAPSTONE IN MASS COMMUNICATION,NA,3,7,25,03:30-04:45,T R,"Armstrong, Darnell",Arts and Communications,College of Arts and Sciences
+1,MILS,1120,1,47308,BASIC LEADERSHIP,NA,1,13,25,09:00-09:50,M,"Kazee, Amanda",Other,Other
+1,MILS,1120,2,47309,BASIC LEADERSHIP,NA,1,7,25,10:00-10:50,M,"Kazee, Amanda",Other,Other
+1,MILS,1120,3,47310,BASIC LEADERSHIP,NA,1,10,25,11:00-11:50,M,"Kazee, Amanda",Other,Other
+1,MILS,1120L,51,47446,INTRO MIL LEADSHP-LAB,NA,0,24,45,03:30-05:30,R,"Kazee, Amanda",Other,Other
+1,MILS,1120L,52,47447,INTRO MIL LEADSHP-LAB,NA,0,5,15,09:00-11:00,S,"Kazee, Amanda",Other,Other
+1,MILS,2220,1,47311,LEADERSHIP & TEAMWORK,NA,2,10,25,01:00-01:50,M W,"Kazee, Amanda",Other,Other
+1,MILS,2220,2,47339,LEADERSHIP & TEAMWORK,NA,2,1,15,02:00-02:50,M W,"Kazee, Amanda",Other,Other
+1,MILS,2220L,51,47448,LEADERSHIP & TEAMWORK LAB,NA,0,9,30,03:30-05:30,R,"Kazee, Amanda",Other,Other
+1,MILS,2220L,52,47449,LEADERSHIP & TEAMWORK LAB,NA,0,1,15,09:00-11:00,S,"Kazee, Amanda",Other,Other
+1,MILS,2920,1,47824,LEADERSHIP,NA,2,2,10,03:00-04:50,M W,"Schippers, Mario",Other,Other
+1,MILS,2920L,51,47905,LEADERSHIP LAB,NA,0,2,10,03:30-05:30,R,"Schippers, Mario",Other,Other
+1,MILS,2920L,52,48432,LEADERSHIP LAB,NA,0,0,10,09:00-11:00,S,"Schippers, Mario",Other,Other
+1,MILS,3320,1,47338,LEADERSHIP AND ETHICS,NA,3,1,25,09:30-10:45,T R,"Lopez-Serda, Octavio",Other,Other
+1,MILS,3320,2,48430,LEADERSHIP AND ETHICS,NA,3,7,25,12:30-01:45,T R,"Lopez-Serda, Octavio",Other,Other
+1,MILS,3320L,51,47450,LEADERSHIP AND ETHICS LAB,NA,0,7,30,03:30-05:30,R,"Lopez-Serda, Octavio",Other,Other
+1,MILS,3320L,52,47520,LEADERSHIP AND ETHICS LAB,NA,0,1,15,09:00-11:00,S,"Lopez-Serda, Octavio",Other,Other
+1,MILS,4420,1,47312,OFFICERSHIP,NA,1,8,25,09:30-10:45,T R,"Madison, Shakedia",Other,Other
+1,MILS,4420,2,48431,OFFICERSHIP,NA,1,3,25,12:30-01:45,T R,"Madison, Shakedia",Other,Other
+1,MILS,4420L,51,47451,OFFICERSHIP LAB,NA,0,10,25,03:30-05:30,R,"Madison, Shakedia",Other,Other
+1,MILS,4420L,52,47452,OFFICERSHIP LAB,NA,0,1,25,09:00-11:00,S,"Madison, Shakedia",Other,Other
+1,MILS,4920,1,50470,LEADERSHIP/ARMY VALUES,NA,3,3,10,02:30-03:45,M W,"Schippers, Mario",Other,Other
+1,MKTG,3103,WH,47561,PRIN OF MARKETING,NA,3,36,30,09:30-10:45,M W,"Thompson, Isaac",Business Administration,College of Arts and Sciences
+1,MKTG,3133,WH,48800,PRIN OF RETAILING,NA,3,24,30,11:00-12:15,M W,"Thompson, Isaac",Business Administration,College of Arts and Sciences
+1,MKTG,4103,WH,50436,MARKET COMMUNICATION,NA,3,10,30,03:30-04:45,M W,"Thompson, Isaac",Business Administration,College of Arts and Sciences
+1,MKTG,4123,WH,47571,INTERNATIONAL MARKETING,NA,3,16,30,02:00-03:15,M W,"Thompson, Isaac",Business Administration,College of Arts and Sciences
+1,MKTG,4253,W1,50292,MARKETING MANAGEMENT,NA,3,15,30,NA,NA,"Thompson, Isaac",Business Administration,College of Arts and Sciences
+1,MLHC,5770,WH,49851,SUPERVISED PRACTICUM,NA,3,4,8,06:00-09:00,M,"Lovato, Francisco",Other,Other
+1,MLHC,5772,WH,49853,INTERNSHIP I,NA,3,0,8,06:00-09:00,R,"Quintana, Jason",Other,Other
+1,MLHC,5782,WH,49854,INTERNSHIP II,NA,3,3,8,06:00-09:00,R,"Quintana, Jason",Other,Other
+1,MNGT,3103,WH,47415,PRINCIPLES OF MANAGEMENT,NA,3,31,30,09:30-10:45,T R,"Baxter, Ryan",Business Administration,College of Arts and Sciences
+1,MNGT,3153,WH,48434,ORGANIZATIONAL THEORY/BEHAVIOR,NA,3,8,30,02:00-03:15,T R,"Baxter, Ryan",Business Administration,College of Arts and Sciences
+1,MNGT,3203,WH,50437,HUMAN RESOURCE MANAGEMENT,NA,3,13,30,12:30-01:45,T R,"Baxter, Ryan",Business Administration,College of Arts and Sciences
+1,MNGT,3303,WH,47797,OPERATION/PRODUCTION MNGT,NA,3,17,30,05:30-08:15,T,"Duncan, Jonte",Business Administration,College of Arts and Sciences
+1,MNGT,4353,W1,47959,SMALL BUSINESS MANAGEMENT,NA,3,30,30,NA,NA,"Baxter, Ryan",Business Administration,College of Arts and Sciences
+1,MNGT,4383,WH,47528,INTERNATIONAL MANAGEMENT,NA,3,13,30,11:00-12:15,M W,"Caldera-Velazquez, Sabryna",Business Administration,College of Arts and Sciences
+1,MNGT,4393,W1,47564,STRATEGIC MNGT,NA,3,22,30,NA,NA,"Caldera-Velazquez, Sabryna",Business Administration,College of Arts and Sciences
+1,MPAC,5001,W1,50486,FOUNDATIONS OF PUBLIC MNGT,NA,3,4,20,NA,NA,"Jones, Te'Keisha",Other,Other
+1,MPAC,5002,W1,50487,HR MNGT IN PUBLIC SECTOR,NA,3,5,20,NA,NA,"Jones, Te'Keisha",Other,Other
+1,MPAC,5003,W1,50488,LDS & ORGANIZATIONAL BEHAVIOR,NA,3,5,20,NA,NA,"Jones, Te'Keisha",Other,Other
+1,MUSC,1000,1,48852,MUSIC APPRECIATION,NA,3,35,35,09:00-09:50,M W F,"Benally, J'Rita",Arts and Communications,College of Arts and Sciences
+1,MUSC,1000,2,48853,MUSIC APPRECIATION,NA,3,36,35,10:00-10:50,M W F,"Benally, J'Rita",Arts and Communications,College of Arts and Sciences
+1,MUSC,1013,1,50191,MUSIC THEORY II,NA,3,2,15,04:00-04:50,M W F,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,1141,1,50015,MAJOR APPLIED MUSIC,- No-cost:$0 required txtbk cost,1,5,5,07:00-07:50,F,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,1331,1,49559,MUSIC ENSEMBLE,- No-cost:$0 required txtbk cost,1,11,40,07:00-08:00,MTWR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,1331,5,48000,CONCERT BAND,NA,1,32,35,05:00-07:00,M WR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,1331,7,48845,MUSIC ENSEMBLE,- No-cost:$0 required txtbk cost,1,3,20,06:00-07:00,M W,"Benally, J'Rita",Arts and Communications,College of Arts and Sciences
+1,MUSC,2013,3,50428,MUSIC THEORY IV,NA,3,4,15,02:00-02:50,T,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,2141,1,50016,MAJOR APPLIED MUSIC,- No-cost:$0 required txtbk cost,1,3,5,08:00-09:00,F,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,2314,1,50477,CONDUCTING FUNDAMENTALS,- No-cost:$0 required txtbk cost,1,4,25,09:00-09:50,M,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,2331,1,49561,MUSIC ENSEMBLE,- No-cost:$0 required txtbk cost,1,5,40,07:00-08:00,MTWR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,2331,5,48005,MUSIC ENSEMBLE CONCERT BAND,NA,1,10,35,05:00-06:00,M WR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,2362,0,49567,CLASS PIANO I,- No-cost:$0 required txtbk cost,1,2,16,11:00-11:50,M,"Benally, J'Rita",Arts and Communications,College of Arts and Sciences
+1,MUSC,3000,1,49452,MUSIC BUSINESS PRACTICES,- No-cost:$0 required txtbk cost,3,21,15,09:30-10:45,T R,"Benally, J'Rita",Arts and Communications,College of Arts and Sciences
+1,MUSC,3294,1,47504,JAZZ HISTORY,NA,2,2,35,01:00-02:00,T R,"Benally, J'Rita",Arts and Communications,College of Arts and Sciences
+1,MUSC,3331,1,49562,MUSIC ENSEMBLE,- No-cost:$0 required txtbk cost,1,5,40,07:00-08:00,MTWR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,3331,5,48002,MUSIC ENSEMBLE CONCERT BAND,NA,1,8,35,05:00-07:00,M WR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4003,1,50476,MUSIC HISTORY & LIT III,- No-cost:$0 required txtbk cost,2,5,30,03:00-03:50,M W,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4141,1,50018,MAJOR APPLIED MUSIC,- No-cost:$0 required txtbk cost,1,2,5,12:00-01:00,F,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4262,1,50427,FORM AND ANALYSIS,NA,2,5,15,03:00-03:50,T R,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4331,1,49563,MUSIC ENSEMBLE,- No-cost:$0 required txtbk cost,1,5,40,07:00-08:00,T R,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4331,5,48009,MUSIC ENSEMBLE CONCERT BAND,NA,1,1,35,05:00-07:00,M WR,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4797,1,50019,MUSIC SEMINAR,NA,2,4,15,02:00-02:50,M W,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,MUSC,4798,0,50491,SENIOR RECITAL,NA,3,5,25,04:00-07:00,R,"Gip, Henry",Arts and Communications,College of Arts and Sciences
+1,NURS,3100K,1,50125,CON.PSYCHIATRIC MH NURSING,NA,5,16,40,09:00-11:30,F,"Paner, Christopher",Nursing,College of Arts and Sciences
+1,NURS,3100L,1,50126,CON.PSYCH MH NURSING LAB,NA,0,16,40,06:30-12:30,M,"Paner, Christopher",Nursing,College of Arts and Sciences
+1,NURS,3110K,1,50123,ADLT NURS & HLTH DISPARITIES i,NA,7,16,40,08:00-11:20,T,"Paner, Christopher",Nursing,College of Arts and Sciences
+1,NURS,3110L,1,50124,ADLT NURS & HLTH DISPAR LAB,NA,0,16,40,06:30-04:00,W,"Paner, Christopher",Nursing,College of Arts and Sciences
+1,NURS,3120,1,50127,RESEARCH METHODS IN NURSING,NA,3,16,40,12:30-03:00,T,"Paner, Christopher",Nursing,College of Arts and Sciences
+1,NURS,4100,1,50450,NURSE AS A LEADER,NA,3,6,6,02:30-05:00,W,"al-Khawaja, Faadil",Nursing,College of Arts and Sciences
+1,NURS,4110K,1,50451,NURSING CARE OF CHILDREN,NA,4,6,6,12:00-02:00,W,"al-Khawaja, Faadil",Nursing,College of Arts and Sciences
+1,NURS,4110L,0,50453,NURSING CARE OF CHILDREN LAB,NA,0,6,6,07:00-07:00,T,"al-Khawaja, Faadil",Nursing,College of Arts and Sciences
+1,NURS,4120K,1,50452,ENTRY INTO NURSING PRACTICE,NA,8,6,6,08:00-10:30,W,"Wright, Jazminn",Nursing,College of Arts and Sciences
+1,NURS,4120L,1,50454,ENTRY INTO NURS PRACTICE LAB,NA,0,6,6,NA,WRF,"Wright, Jazminn",Nursing,College of Arts and Sciences
+1,PBHL,5103,WH,49802,ENVIRONMENTAL HEALTH,NA,3,7,30,06:00-09:00,M,"Williams, Ross",Other,Other
+1,PBHL,5113,WH,50390,ENVIRONMENTAL POLLUTION,NA,3,8,30,06:00-09:00,T,"el-Saah, Badruddeen",Other,Other
+1,PBHL,5133,WH,49893,NUTRI AGRONOMICS /FOOD CULTURE,NA,3,3,30,06:00-09:00,W,"Scott, Kevin",Other,Other
+1,PBHL,5183,WH,50389,ENVIRONMENTAL LAW,NA,3,9,30,06:00-09:00,T,"Williams, Ross",Other,Other
+1,PBHL,5193,WH,49806,INDUSTRIAL HLTH & HAZARD MNGT,- No-cost:$0 required txtbk cost,3,8,30,06:00-09:00,W,"Williams, Ross",Other,Other
+1,PBHL,5200,WH,50386,HLTH BEHAVIOR/HLTH PROMOTION,NA,3,6,30,06:00-09:00,M,"Scott, Kevin",Other,Other
+1,PBHL,5223,WH,50387,OCCUPATION SFTY & EPIDEMIOLOGY,NA,3,2,30,06:00-09:00,T,"Scott, Kevin",Other,Other
+1,PBHL,5324,WH,49810,ZOONOSES OF ANIMAL & HUMAN POP,- No-cost:$0 required txtbk cost,3,4,30,06:00-09:00,M,"el-Saah, Badruddeen",Other,Other
+1,PBHL,5850,WH,49808,FIELD EXPERIENCE,- No-cost:$0 required txtbk cost,1,3,30,05:00-06:00,R,"el-Saah, Badruddeen",Other,Other
+1,PBHL,5999,WH,49809,THESIS/RESEARCH,- No-cost:$0 required txtbk cost,1,4,30,07:00-08:00,R,"el-Saah, Badruddeen",Other,Other
+1,PEDW,1402,1,47251,FITS/LIFESTY ASSESSES,NA,1,45,50,09:00-09:50,M W,"Wiens, Melanie",Other,Other
+1,PEDW,1402,2,48623,FITS/LIFESTY ASSESSES,- No-cost:$0 required txtbk cost,1,44,50,10:00-10:50,M W,"Wiens, Melanie",Other,Other
+1,PEDW,1402,3,49864,FITS/LIFESTY ASSESSES,NA,1,33,50,01:30-02:20,T R,"Wiens, Melanie",Other,Other
+1,PEDW,1410,1,48624,BEGINNING SWIMMING,- No-cost:$0 required txtbk cost,1,17,25,05:00-06:00,F,"Eckert, Kristjan",Other,Other
+1,PEDW,1444,1,47425,WALKING/JOGGING,NA,1,49,50,06:00-06:50,M W,"Wiens, Melanie",Other,Other
+1,PEDW,1631,1,49238,BASIC WEIGHT TRAINING,NA,1,51,50,05:00-05:50,M W,"Eckert, Kristjan",Other,Other
+1,PEDW,1771,1,48897,RHYTHMIC AEROBICS,- No-cost:$0 required txtbk cost,1,22,50,06:00-06:50,T R,"Wiens, Melanie",Other,Other
+1,PEDW,2522,1,48569,PERSON AND COMM HLTH,NA,2,52,50,11:00-11:50,M W,"al-Ahmadi, Ibrahim",Other,Other
+1,PEDW,2522,W1,48475,PERSON AND COMM HLTH,NA,2,63,50,NA,NA,"al-Ahmadi, Ibrahim",Other,Other
+1,PEDW,2522,W2,49236,PERSON AND COMM HLTH,NA,2,65,50,NA,NA,"al-Ahmadi, Ibrahim",Other,Other
+1,PHIL,2010,WH1,49552,INTRO TO PHILOSOPHY,- No-cost:$0 required txtbk cost,3,36,40,09:30-10:45,T R,"Jones, Ariel",Arts and Communications,College of Arts and Sciences
+1,PHIL,2010,WH2,49630,INTRO TO PHILOSOPHY,- No-cost:$0 required txtbk cost,3,22,40,04:00-04:50,M W F,"Cottonwood, Dandrew",Arts and Communications,College of Arts and Sciences
+1,PHIL,2010,WH3,49772,INTRO TO PHILOSOPHY,- No-cost:$0 required txtbk cost,3,11,40,08:00-09:15,T R,"Elvove, Matthew",Arts and Communications,College of Arts and Sciences
+1,PHIL,2010,WH4,50357,INTRO TO PHILOSOPHY,- No-cost:$0 required txtbk cost,3,33,40,09:00-09:50,M W F,"Cottonwood, Dandrew",Arts and Communications,College of Arts and Sciences
+1,PHIL,2010,WH5,50371,INTRO TO PHILOSOPHY,- No-cost:$0 required txtbk cost,3,30,40,12:30-01:45,T R,"Elvove, Matthew",Arts and Communications,College of Arts and Sciences
+1,PHIL,2030,WH1,49553,ETHICS,NA,3,40,40,02:00-03:15,T R,"Jones, Ariel",Arts and Communications,College of Arts and Sciences
+1,PHIL,2030,WH2,49631,ETHICS,NA,3,12,40,05:00-06:15,M W,"Cottonwood, Dandrew",Arts and Communications,College of Arts and Sciences
+1,PHIL,2030,WH3,50358,ETHICS,NA,3,38,40,12:30-01:45,T R,"Jones, Ariel",Arts and Communications,College of Arts and Sciences
+1,PHIL,4002,WH1,50359,MAJOR THEORIES IN AESTHETICS,NA,3,13,15,09:30-10:45,T R,"Elvove, Matthew",Arts and Communications,College of Arts and Sciences
+1,PHSC,1101,1,47313,INTRO PHYSICAL SCI I,NA,3,42,40,12:30-01:45,T R,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,PHSC,2012,1,47375,INTRO NON-TRDTL FORMS OF ENRGY,NA,1,13,30,06:00-06:50,W,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,PHYS,1112,1,47307,INTRO PHYSICS II,NA,4,28,35,09:00-09:50,M W F,"Varney, Jayla",Natural and Computational Sciences,College of Arts and Sciences
+1,PHYS,1112,W1,50379,INTRO PHYSICS II,#NAME?,4,43,35,NA,NA,"Varney, Jayla",Natural and Computational Sciences,College of Arts and Sciences
+1,PHYS,1112L,51,47435,INTRO PHYS II-LAB,NA,0,33,35,01:00-02:50,F,"Varney, Jayla",Natural and Computational Sciences,College of Arts and Sciences
+1,PHYS,1112L,W51,50382,INTRO PHYS II-LAB,NA,0,39,35,NA,NA,"Varney, Jayla",Natural and Computational Sciences,College of Arts and Sciences
+1,PHYS,2212,1,47329,PRINCIPLES OF PHYSICS II,NA,4,15,35,10:00-10:50,M W F,"Varney, Jayla",Natural and Computational Sciences,College of Arts and Sciences
+1,PHYS,2212L,51,47437,PRIN PHYS LAB II,NA,0,12,35,04:00-05:50,R,"Varney, Jayla",Natural and Computational Sciences,College of Arts and Sciences
+1,POLS,1101,WH,50083,AMERICAN GOVERNMENT,- No-cost:$0 required txtbk cost,3,41,35,12:30-01:45,T R,"el-Akhtar, Suhaa",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,1101,WH2,49797,AMERICAN GOVERNMENT,- No-cost:$0 required txtbk cost,3,40,35,09:00-09:50,M W F,"Jones, Te'Keisha",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,1101,WH3,50084,AMERICAN GOVERNMENT,- No-cost:$0 required txtbk cost,3,41,35,10:00-10:50,M W F,"Pettway, Caitlin",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,1101,WH4,47420,AMERICAN GOVERNMENT,NA,3,37,35,08:00-09:15,T R,"Brown, Cecily",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,1101,WH5,49796,AMERICAN GOVERNMENT,- No-cost:$0 required txtbk cost,3,37,35,09:30-10:45,T R,"Brown, Cecily",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,1101,WH6,50440,AMERICAN GOVERNMENT,- No-cost:$0 required txtbk cost,3,34,35,12:30-01:45,T R,"Brown, Cecily",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,3301,WH,49800,POLITICAL SCI RSCH MTHDS,NA,3,14,35,01:00-01:50,M W F,"Jones, Te'Keisha",Behavioral and Social Sciences,College of Arts and Sciences
+1,POLS,4402,WH,50445,AFRICAN POLITICS,NA,3,7,35,01:00-01:50,M W F,"Pettway, Caitlin",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSCI,1804,1,47325,PLANT SCIENCE,NA,4,26,30,02:00-02:50,M W F,"Terriquez Rendon, Samantha",Other,Other
+1,PSCI,1804L,51,47428,PLANT SCIENCE LAB,NA,0,26,30,01:00-02:50,R,"Terriquez Rendon, Samantha",Other,Other
+1,PSCI,2803,1,47810,INTRO TO BIOTECHNOLOGY,NA,3,6,20,09:30-10:45,T R,"al-Shaikh, Manaahil",Other,Other
+1,PSCI,3862,1,50467,PLANT PHYSIOLOGY,NA,3,5,10,05:30-08:30,M,"Wako, Steffen",Other,Other
+1,PSCI,3862L,51,50462,PLANT PHYSIOLOGY LAB,NA,0,5,10,08:30-10:20,S,"Wako, Steffen",Other,Other
+1,PSCI,4833,1,49901,PRIN OF PLANT BREEDING,NA,3,6,15,09:30-10:45,T R,"Fhuere, Alexandra",Other,Other
+1,PSCI,4833L,51,49903,PRIN OF PLANT BREEDING LAB,NA,0,6,15,05:30-07:20,F,"Fhuere, Alexandra",Other,Other
+1,PSCI,4843K,1,49907,TECH. IN MOLECULAR BIOLOGY,NA,3,5,15,11:00-11:50,M W,"al-Shaikh, Manaahil",Other,Other
+1,PSCI,4843L,51,49908,TECH. MOLEC. BIO. LAB,NA,0,5,15,10:00-11:50,F,"al-Shaikh, Manaahil",Other,Other
+1,PSCI,4863,1,50461,PLANT BIOTECHNOLOGY,NA,3,3,10,05:30-08:30,T,"al-Shaikh, Manaahil",Other,Other
+1,PSCI,4863L,51,50479,PLANT BIOTECHNOLOGY LAB,NA,0,3,15,03:30-06:15,R,"al-Shaikh, Manaahil",Other,Other
+1,PSYC,1101,W1,49237,GENERAL PSYCHOLOGY,- No-cost:$0 required txtbk cost,3,48,40,NA,NA,"Rocha, Chance",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,1101,WH,48338,GENERAL PSYCHOLOGY,NA,3,42,40,11:00-11:50,M W F,"Amphonephong, Vanessa",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,1101,WH2,49049,GENERAL PSYCHOLOGY,- No-cost:$0 required txtbk cost,3,45,40,01:00-01:50,M W F,"Amphonephong, Vanessa",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,1101,WH3,50290,GENERAL PSYCHOLOGY,- No-cost:$0 required txtbk cost,3,16,30,10:00-10:50,M W F,"Amphonephong, Vanessa",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,2902,W1,47595,CAREERS & ISSUES IN PSYC,NA,2,51,40,NA,NA,"al-Siddiqi, Maisoon",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,2902,WH,49519,CAREERS & ISSUES IN PSYC,NA,2,46,40,12:00-12:50,M W,"al-Siddiqi, Maisoon",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3013,W1,47542,PSYCHO RSCH II,NA,3,35,40,NA,NA,"Pierce, Henry",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3013,WH,47320,PSYCHO RSCH II,NA,3,26,40,03:30-04:45,T R,"Pierce, Henry",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3023,W1,47543,ABNORMAL PSYCHOLOGY,NA,3,44,40,NA,NA,"Karr, Katherine",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3023,WH,47400,ABNORMAL PSYCHOLOGY,NA,3,46,40,09:30-10:45,T R,"Gooding, Benjamin",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3043,W1,47941,PSYCHOLOGY OF LEARNING,NA,3,48,40,NA,NA,"Karr, Katherine",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3063,W1,47596,PERSONALITY,NA,3,46,40,NA,NA,"Gooding, Benjamin",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,3063,WH,49051,PERSONALITY,NA,3,44,40,01:00-01:50,M W F,"Gooding, Benjamin",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4053,W1,47540,BEHAVIOR MODIFICATION,NA,3,47,40,NA,NA,"al-Siddiqi, Maisoon",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4053,WH,47858,BEHAVIOR MODIFICATION,NA,3,43,40,11:00-11:50,M W F,"al-Siddiqi, Maisoon",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4073,W1,47912,CROSS-CULTURAL PSYCHOLOGY,NA,3,39,40,NA,NA,"Pierce, Henry",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4073,WH,49521,CROSS-CULTURAL PSYCHOLOGY,NA,3,26,40,02:00-03:15,T R,"Pierce, Henry",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4083,W1,47597,FORENSIC PSYCHOLOGY,NA,3,44,40,NA,NA,"Johnson, James",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4083,WH,47497,FORENSIC PSYCHOLOGY,NA,3,43,40,12:30-01:45,T R,"Rocha, Chance",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4910,W1,48601,"PRO ETHICS,STANDARD,CAREER DEV",NA,3,36,40,NA,NA,"Rocha, Chance",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4910,WH,49052,"PRO ETHICS,STANDARD,CAREER DEV",NA,3,21,40,10:00-10:50,M W F,"Rocha, Chance",Behavioral and Social Sciences,College of Arts and Sciences
+1,PSYC,4912,W1,48619,PSYCHOLOGY INTERNSHIP,NA,6,11,15,NA,NA,"Rocha, Chance",Behavioral and Social Sciences,College of Arts and Sciences
+1,RCCM,5423,W1,47360,MEDICAL CASE MANAGEMENT,NA,3,13,15,NA,NA,"Lovan, Timothy",Other,Other
+1,RCCM,5441,W1,47361,PRACTICUM IN REHABILITATION,- $40 or under req txtbks cost,3,3,12,NA,NA,"Sloan, Kehaulani",Other,Other
+1,RCCM,5706,W1,47362,INTERSHIP REHABILITATION,- $40 or under req txtbks cost,3,5,6,NA,NA,"Sloan, Kehaulani",Other,Other
+1,RCCM,5706,W2,50439,INTERSHIP REHABILITATION,NA,3,0,6,NA,NA,"Sloan, Kehaulani",Other,Other
+1,RCCM,6001,W1,47574,COMPREHENSIVE REVIEW,- $40 or under req txtbks cost,0,4,15,NA,NA,"Lovan, Timothy",Other,Other
+1,READ,2100,1,50483,LITERACY COMPREHENSION,NA,3,2,10,NA,NA,"Villegas, Iris",Other,Other
+1,READ,3820,WH,49845,EXPAND LIT ACROSS CONTENT/ECSP,NA,3,26,25,05:30-08:30,W,"Villegas, Iris",Other,Other
+1,READ,3823,WH,49703,EXPANDING LITERACY IN MID GRD.,NA,3,7,25,05:30-08:30,W,"Villegas, Iris",Other,Other
+1,READ,5434,70,49937,CONTENT AREA LITERACY,NA,3,1,12,09:00-12:00,S,"Nelson, Alexander",Other,Other
+1,SCIE,3102K,1,47761,PRIN. OF PHYSICAL SCIENCE II,NA,3,7,15,05:00-07:30,T,"Fang, Mason",Natural and Computational Sciences,College of Arts and Sciences
+1,SCIE,3103,W1,47872,PRIN OF ENVIRONMENTAL SCIENCE,NA,3,12,15,NA,NA,"Qu, Austin",Natural and Computational Sciences,College of Arts and Sciences
+1,SOWK,2002,1,47579,SOCIAL WORK ETHICS,NA,3,13,20,08:00-08:50,M W F,"Clark, Francena",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,3002,1,49841,HUMN. BEHAV. & SOC. ENV. II,NA,3,21,20,09:30-10:45,T R,"Clark, Francena",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,3002,WH,50401,HUMN. BEHAV. & SOC. ENV. II,NA,3,6,25,05:30-06:45,M W,"Clark, Francena",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,3012,1,50071,THRY & MTHDS-SOC WRK PRACT II,NA,3,19,20,12:30-01:45,T R,"Clark, Francena",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,3012,WH,49275,THRY & MTHDS-SOC WRK PRACT II,NA,3,8,20,06:30-07:45,T R,"Hamilton, Vanessa",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4030,W1,50404,SOC WRK-FLD OF GERONTOLOGY,NA,3,12,25,NA,NA,"Hamilton, Vanessa",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4060,W1,50405,HUMAN SRVCS-RURAL COMM,NA,3,14,25,NA,NA,"Hamilton, Vanessa",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4099,W1,50076,MEN HLTH & SOC WK PRACTICES,NA,3,14,20,NA,NA,"Serrato, Gabriel",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4110,1,50075,SOCIAL WELFARE POLICY,NA,3,15,25,10:00-10:50,M W F,"Padilla-Chavez, Bryan",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4110,WH,49842,SOCIAL WELFARE POLICY,NA,3,6,20,07:00-08:15,M W,"Padilla-Chavez, Bryan",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4132,1,50077,SOCIAL RESEARCH SEMINAR,NA,3,4,20,05:30-06:45,M W,"Padilla-Chavez, Bryan",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4132,WH,47426,SOCIAL RESEARCH SEMINAR,NA,3,11,20,11:00-11:50,M W F,"Padilla-Chavez, Bryan",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4399,1,47952,FIELD OBSERVATION & EXPERIENCE,NA,3,22,25,01:00-01:50,M W F,"Serrato, Gabriel",Behavioral and Social Sciences,College of Arts and Sciences
+1,SOWK,4402,1,47819,PRACTICUM II,NA,6,19,20,06:00-07:15,T R,"Serrato, Gabriel",Behavioral and Social Sciences,College of Arts and Sciences
+1,SPAN,1001,1,49675,ELEMENTARY SPANISH I,NA,3,32,30,09:00-09:50,M W F,"Mcwilliams, Royal",Arts and Communications,College of Arts and Sciences
+1,SPAN,1002,1,49676,ELEMENTARY SPANISH II,- $40 or under req txtbks cost,3,38,30,10:00-10:50,M W F,"Mcwilliams, Royal",Arts and Communications,College of Arts and Sciences
+1,SPAN,1002,2,50307,ELEMENTARY SPANISH II,- $40 or under req txtbks cost,3,36,30,12:00-12:50,M W F,"Mcwilliams, Royal",Arts and Communications,College of Arts and Sciences
+1,SPAN,1002,3,50355,ELEMENTARY SPANISH II,- $40 or under req txtbks cost,3,39,30,01:00-01:50,M W F,"Mcwilliams, Royal",Arts and Communications,College of Arts and Sciences
+1,SPAN,2001,1,50356,INTERMEDIATE SPANISH I,- No-cost:$0 required txtbk cost,3,48,30,02:00-02:50,M W F,"Mcwilliams, Royal",Arts and Communications,College of Arts and Sciences
+1,SSCI,3813,1,50113,SOIL FERTLTY/FERTILIZTN,NA,3,12,10,09:00-09:50,M W,"Terriquez Rendon, Samantha",Other,Other
+1,SSCI,3813L,51,50114,SOIL FER/FERT LAB,NA,0,12,10,03:00-04:50,M,"Terriquez Rendon, Samantha",Other,Other
+1,STAT,3000,1,48866,STATISTICAL METHODS I,NA,3,7,30,02:00-03:40,M,"Mcroy, Charneissha",Natural and Computational Sciences,College of Arts and Sciences
+1,STAT,3000L,51,48867,STATISTICAL METHODS I LAB,NA,0,7,30,02:00-03:40,W,"Mcroy, Charneissha",Natural and Computational Sciences,College of Arts and Sciences
+1,VETY,1812,1,47453,MEDICAL TERMINOLOGY,- No-cost:$0 required txtbk cost,1,7,60,01:00-01:50,W,"Coleman, Aerial",Other,Other
+1,VETY,1824,1,47644,ANIMAL ANATOMY AND PHYSIOLOGY,- No-cost:$0 required txtbk cost,4,55,54,12:30-01:45,T R,"Coleman, Aerial",Other,Other
+1,VETY,1824L,51,47645,ANIMAL ANATOMY & PHYS LAB,- No-cost:$0 required txtbk cost,0,18,18,09:00-10:50,T,"Coleman, Aerial",Other,Other
+1,VETY,1824L,52,47646,ANIMAL ANATOMY & PHYS LAB,- No-cost:$0 required txtbk cost,0,19,18,02:00-03:50,T,"Coleman, Aerial",Other,Other
+1,VETY,1824L,53,48856,ANIMAL ANATOMY & PHYS LAB,- No-cost:$0 required txtbk cost,0,18,18,09:00-10:50,R,"Coleman, Aerial",Other,Other
+1,VETY,2824,1,47283,HOSPITAL PROCEDURES,- No-cost:$0 required txtbk cost,2,21,28,10:00-10:50,M,"Likianos, Sylvanus",Other,Other
+1,VETY,2824L,51,47454,HOSPITAL PROCEDURES LAB,- No-cost:$0 required txtbk cost,0,17,14,10:00-11:50,W,"Likianos, Sylvanus",Other,Other
+1,VETY,2824L,52,48386,HOSPITAL PROCEDURES LAB,- No-cost:$0 required txtbk cost,0,4,14,01:00-02:50,W,"Likianos, Sylvanus",Other,Other
+1,VETY,2873,1,47284,RADIOLOGY,- No-cost:$0 required txtbk cost,3,21,32,09:30-10:20,T R,"Likianos, Sylvanus",Other,Other
+1,VETY,2873L,51,47455,RADIOLOGY LAB,- No-cost:$0 required txtbk cost,0,14,16,01:00-02:50,R,"Likianos, Sylvanus",Other,Other
+1,VETY,2873L,52,47806,RADIOLOGY LAB,- No-cost:$0 required txtbk cost,0,7,16,03:00-04:50,R,"Likianos, Sylvanus",Other,Other
+1,VETY,2893,1,47478,VETERINARY MICROBIOLOGY,- No-cost:$0 required txtbk cost,3,14,30,02:00-02:50,M W,"Coleman, Aerial",Other,Other
+1,VETY,2893L,51,47456,VETY MICROBIOLOGY LAB,- No-cost:$0 required txtbk cost,0,10,15,03:00-04:50,M,"Coleman, Aerial",Other,Other
+1,VETY,2893L,52,48650,VETY MICROBIOLOGY LAB,- No-cost:$0 required txtbk cost,0,4,15,03:00-04:50,W,"Coleman, Aerial",Other,Other
+1,VETY,3924,1,47285,VETERINARY CLINICAL PATH & CHM,- No-cost:$0 required txtbk cost,3,21,30,09:00-09:50,M W,"el-Saah, Badruddeen",Other,Other
+1,VETY,3924L,51,47457,VETERINARY CLIN PATH & CHM LAB,- No-cost:$0 required txtbk cost,0,12,15,12:30-02:20,T,"el-Saah, Badruddeen",Other,Other
+1,VETY,3924L,52,48458,VETERINARY CLIN PATH & CHM LAB,- No-cost:$0 required txtbk cost,0,8,15,12:30-02:20,R,"el-Saah, Badruddeen",Other,Other
+1,VETY,3924L,53,50497,VETERINARY CLIN PATH & CHM LAB,NA,0,1,1,03:00-05:50,F,"el-Saah, Badruddeen",Other,Other
+1,VETY,4863,1,48108,BIOMEDICAL RESEARCH METHODS,- No-cost:$0 required txtbk cost,2,5,20,11:00-11:50,M,"Coleman, Aerial",Other,Other
+1,VETY,4863L,51,48861,BIOMEDICAL RESEARCH LAB,- No-cost:$0 required txtbk cost,0,5,20,11:00-12:50,W,"Coleman, Aerial",Other,Other
+1,VETY,4883,1,47758,SPECIAL TOPICS,- No-cost:$0 required txtbk cost,2,10,20,03:00-04:50,R,"Coleman, Aerial",Other,Other
+1,VETY,4923,1,47286,CLINICS-SMALL ANIM SURG & MED,- No-cost:$0 required txtbk cost,3,10,20,08:00-05:00,MTWRF,"Coleman, Aerial",Other,Other
+1,VETY,4933,1,47287,CLINICS-RECEIVING & CENTRAL,- No-cost:$0 required txtbk cost,3,10,20,08:00-05:00,MTWRF,"Coleman, Aerial",Other,Other
+1,VETY,4943,1,47288,CLINICS-ANESTHESIOLOGY,- No-cost:$0 required txtbk cost,3,10,20,08:00-05:00,MTWRF,"Coleman, Aerial",Other,Other
+1,VETY,4953,1,47289,CLINICS-CLINICAL APPLICATIONS,- No-cost:$0 required txtbk cost,3,10,20,08:00-05:00,MTWRF,"Coleman, Aerial",Other,Other
+1,ZOOL,3203K,1,47346,ENTOMOLOGY,NA,4,19,30,03:30-04:45,T R,"Hang, Lily",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3203L,51,47473,ENTOMOLOGY LAB,NA,0,19,30,01:00-02:50,F,"Hang, Lily",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3214K,1,50065,COMPARATIVE VERTEBRATE ANATOMY,NA,4,23,30,09:00-09:50,M W F,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3214L,51,50066,COMPARATIVE VERT-LAB,NA,0,23,30,02:00-04:50,T,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3254K,1,48803,HISTOLOGY,- $40 or under req txtbks cost,4,18,30,12:00-12:50,M W F,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3254L,51,48804,HISTOLOGY-LAB,- $40 or under req txtbks cost,0,15,30,01:00-03:50,W,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3254L,52,50508,HISTOLOGY-LAB,- $40 or under req txtbks cost,0,3,2,05:30-08:30,T,"Ramirez, Joel",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3384K,1,50393,ICHTYOLOGY,NA,4,7,20,10:00-10:50,M W F,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3384L,51,50430,ICHTYOLOGY LAB,NA,0,4,20,11:00-01:50,M,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,3384L,52,50499,ICHTYOLOGY LAB,NA,0,3,2,02:00-04:50,F,"Baker, Danielle",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,4294K,1,47373,VERTEBRATE PHYSIOLOGY,NA,4,33,24,11:00-11:50,M W F,"al-Saad, Najeema",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,4294L,51,47474,VERTEBRATE PHYSIOLOGY LAB,NA,0,33,24,12:00-02:50,W,"al-Saad, Najeema",Natural and Computational Sciences,College of Arts and Sciences
+1,ZOOL,4393,1,50374,POPULATION DYNAMICS,NA,3,3,20,01:00-01:50,M W F,"Kim, Chuan-Kun",Natural and Computational Sciences,College of Arts and Sciences
