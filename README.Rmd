@@ -34,7 +34,8 @@ output:
 
 ## 🖥️Deployment
 
-The App is now live at shinyapps.io
+The App is now live at shinyapps.io: 
+
 [Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 

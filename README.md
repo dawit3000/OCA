@@ -33,8 +33,9 @@ retention, or a blend of both.
 
 ## 🖥️Deployment
 
-The App is now live at shinyapps.io [Launch OCA
-App](https://aberra.shinyapps.io/OCA_shinyApp/)
+The App is now live at shinyapps.io:
+
+[Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 ## 📁 Sample Data
 
