@@ -1,0 +1,13 @@
+name: OCA_shinyApp
+title: OCA_shinyApp
+username: aberra
+account: aberra
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14952863
+bundleId: 10474834
+url: https://aberra.shinyapps.io/OCA_shinyApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: README.md|README.Rmd
