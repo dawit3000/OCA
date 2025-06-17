@@ -28,10 +28,10 @@ retention, or a blend of both.
 
 Try the app using this example schedule:
 
-[Download Sample Schedule
-CSV](https://raw.githubusercontent.com/youruser/yourrepo/main/sample_schedule.csv)
-
-*(Replace with actual GitHub URL after upload)*
+- [Download
+  sample_schedule.csv](https://raw.githubusercontent.com/dawit3000/OCA/main/sample_schedule.csv)
+- [Download
+  Johnson_n_Smith_schedule.csv](https://raw.githubusercontent.com/dawit3000/OCA/main/Johnson_n_Smith_schedule.csv)
 
 ## 🧰 Powered By
 
