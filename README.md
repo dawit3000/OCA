@@ -31,7 +31,7 @@ Try the app using this example schedule:
 - [Download
   sample_schedule.csv](https://raw.githubusercontent.com/dawit3000/OCA/main/sample_schedule.csv)
 - [Download
-  Johnson_n_Smith_schedule.csv](https://raw.githubusercontent.com/dawit3000/OCA/main/Johnson_n_Smith_schedule.csv)
+  Johnson_n_Smith_schedule.csv](https://raw.githubusercontent.com/dawit3000/OCA/main/Johnson_n_smith_schedule.csv)
 
 ## 🧰 Powered By
 
