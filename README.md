@@ -31,9 +31,10 @@ retention, or a blend of both.
 - Show Comparison Chart to isualize instructor compensation totals
   across strategies
 
-## 🖥️ Try the Live App
+## 🖥️Deployment
 
-[Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
+The App is now live at shinyapps.io [Launch OCA
+App](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 ## 📁 Sample Data
 
