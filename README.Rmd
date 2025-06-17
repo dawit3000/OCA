@@ -23,7 +23,6 @@ output:
   - **Blend** between the two with a user-defined weight
 - Visualize instructor compensation totals across strategies
 
-## 🖥️ Try the Live App
 
 ## 🖥️ Try the Live App
 

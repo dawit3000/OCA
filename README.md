@@ -22,7 +22,7 @@ retention, or a blend of both.
 
 ## 🖥️ Try the Live App
 
-\[Live App URL will be added after deployment\]
+[Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 ## 📁 Sample Data
 
