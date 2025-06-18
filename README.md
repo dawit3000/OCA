@@ -50,8 +50,8 @@ Try the app using these example schedules:
 
 ## 📄 Related Articles
 
-- **“Automating Fairness: An R Package for Calculating Overload
-  Compensation in Higher Education”**  
+- **“`catool`: An R Package for Automating Fair Compensation in Higher
+  Education”**  
   *(Submitted to The R Journal)*
 
 - **“OCA: A Shiny Web Application for Transparent Overload Compensation
