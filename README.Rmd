@@ -1,15 +1,16 @@
 ---
 title: "OCA: Transparent Overload Compensation App"
 output:
+  html_document:
+    toc: true
+    number_sections: true
   md_document:
     variant: gfm
 ---
 
-# OCA: Transparent Overload Compensation App
-
 **OCA (Overload Compensation App)** is a Shiny web application designed to calculate fair instructor pay for overload teaching assignments in higher education. It applies institutional policy while offering strategic flexibility — allowing administrators to favor cost-saving, faculty retention, or a balanced approach.
 
-## 🔑 Key Features
+# 🔑 Key Features
 
 - Upload a teaching schedule in `.csv` format from:
   - a local data folder, or  
@@ -32,38 +33,74 @@ output:
 - Option to compare all strategies in the output
 - Visualize compensation differences with a comparison chart
 
-## 🖥️ Deployment
+# 🧪 How It Works
+
+1. **Upload Input Data**  
+   A `.csv` file with scheduled courses, instructor names, credit hours, and enrollments.
+
+2. **Apply Filters (Optional)**  
+   Filter down to specific departments, instructors, or programs for focused analysis.
+
+3. **Set Institutional Policy Parameters**  
+   Define standard teaching load, pay rate, and enrollment thresholds for proration.
+
+4. **Select Strategy**  
+   Use the slider to choose between institution-favored, instructor-favored, or blended strategy.
+
+5. **View Output**  
+   The app calculates and displays instructor-level pay by strategy, with comparison charts and summaries.
+
+# 📸 Screenshot - UI
+<br>
+
+<p align="center">
+  <img src="pics/oca_dashboard.png" alt="OCA Dashboard" width="80%" height="50%">
+</p>
+
+<br>
+
+# 📸 Screenshot – Strategy Output Comparison  
+<br>
+
+<p align="center">
+  <img src="pics/oca_dutput_right.png" alt="OCA Output Chart" width="80%">
+</p>
+
+
+# 🖥️ Deployment
 
 The app is now live on shinyapps.io:  
 👉 [Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
 
-## 📁 Sample Data
+# 📁 Sample Data
 
 Try the app using these example schedules:
 
 - [`sample_schedule.csv`](https://raw.githubusercontent.com/dawit3000/OCA/main/sample_schedule.csv)  
 - [`Johnson_n_Smith_schedule.csv`](https://raw.githubusercontent.com/dawit3000/OCA/main/Johnson_n_smith_schedule.csv)
 
-## 🧰 Powered By
+# 🧰 Powered By
 
 - [`catool`](https://github.com/dawit3000/catool) – R package for calculating overload pay based on institutional policy
 - [`shiny`](https://shiny.posit.co/) – R package for building interactive web applications
 
-## 📄 Related Articles
+# 📄 Related Articles
 
-- **"`catool`: An R Package for Automating Fair Compensation in Higher Education"**  
+- **“catool: An R Package for Automating Fair Compensation in Higher Education”**  
   *(Submitted to The R Journal)*
 
 - **“OCA: A Shiny Web Application for Transparent Overload Compensation in Higher Education”**  
   *(In preparation for submission to SoftwareX)*
 
-## 💻 Run Locally
+# 💻 Run Locally
 
-```r
+
+```{r, echo=TRUE, eval=FALSE}
 # Install required packages
-install.packages(c("shiny", "dplyr", "readr", "ggplot2", "DT", "shinyWidgets"))
-# install.packages("catool")  # from CRAN or GitHub
+install.packages(c("shiny", "catool", "dplyr", "readr", "ggplot2", "DT", "shinyWidgets"))
 
 # Run the app
 library(shiny)
 runApp("path/to/OCA_shinyApp")
+---
+  
