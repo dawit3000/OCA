@@ -50,23 +50,21 @@ output:
 5. **View Output**  
    The app calculates and displays instructor-level pay by strategy, with comparison charts and summaries.
 
-# 📸 Screenshot - UI
+## 📸 Screenshot – UI for Left Panel
 <br>
-
 <p align="center">
   <img src="pics/oca_dashboard.png" alt="OCA Dashboard" width="80%" height="50%">
 </p>
 
 <br>
 
-# 📸 Screenshot – Strategy Output Comparison  
+## 📸 Screenshot – Strategy Output Comparison
 <br>
 
 <p align="center">
   <img src="pics/oca_dutput_right.png" alt="OCA Output Chart" width="80%">
 </p>
-
-
+<br>
 # 🖥️ Deployment
 
 The app is now live on shinyapps.io:  
