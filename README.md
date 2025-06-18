@@ -51,34 +51,28 @@ faculty retention, or a balanced approach.
 
 # 📸 Screenshot – UI for Left Panel
 
+<br>
+
 <figure>
 <img src="pics/oca_dashboard.png" alt="OCA Dashboard" />
 <figcaption aria-hidden="true">OCA Dashboard</figcaption>
 </figure>
 
-<p align="center">
-
-<img src="pics/oca_dashboard.png" alt="OCA Dashboard" width="80%" height="50%">
-</p>
+# 📸 Screenshot – Strategy Output Comparison
 
 <br>
-
-# 📸 Screenshot – Strategy Output Comparison
 
 <figure>
 <img src="pics/oca_output_right.png" alt="OCA Output Chart" />
 <figcaption aria-hidden="true">OCA Output Chart</figcaption>
 </figure>
 
-<p align="center">
+<br>
 
-<img src="pics/oca_output_right.png" alt="OCA Output Chart" width="80%">
-</p>
+# 🖥️ Deployment
 
-<br> \# 🖥️ Deployment
-
-The app is now live on shinyapps.io:  
-👉 [Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
+The OCA App is now live hosted at shinyapps.io:  
+👉 [Launch OCA](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 # 📁 Sample Data
 

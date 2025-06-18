@@ -52,27 +52,22 @@ output:
 
 # 📸 Screenshot – UI for Left Panel
 
-![OCA Dashboard](pics/oca_dashboard.png)
-
-<p align="center">
-  <img src="pics/oca_dashboard.png" alt="OCA Dashboard" width="80%" height="50%">
-</p>
-
 <br>
 
+![OCA Dashboard](pics/oca_dashboard.png)
+
 # 📸 Screenshot – Strategy Output Comparison
+<br>
 
 ![OCA Output Chart](pics/oca_output_right.png)
 
-<p align="center">
-  <img src="pics/oca_output_right.png" alt="OCA Output Chart" width="80%">
-</p>
-
 <br>
+
+
 # 🖥️ Deployment
 
-The app is now live on shinyapps.io:  
-👉 [Launch OCA App](https://aberra.shinyapps.io/OCA_shinyApp/)
+The OCA App is now live hosted at shinyapps.io:  
+👉 [Launch OCA ](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 # 📁 Sample Data
 
