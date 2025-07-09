@@ -187,7 +187,7 @@ server <- function(input, output, session) {
         df$SUMMARY[idx + 1] <- paste0("Over ", input$reg, " QHRS: ", qhrs)
         df$SUMMARY[idx + 2] <- paste0("Overload Pay Rate: $", rate)
         df$SUMMARY[idx + 3] <- paste0("Total Overload: $", pay)
-        df$SUMMARY[idx + 4] <- "Note: ENRLD<12 PRO or NO"
+        df$SUMMARY[idx + 4] <- "Note: ENRLD<U+1 PRO or NO"
       }
       df
     }

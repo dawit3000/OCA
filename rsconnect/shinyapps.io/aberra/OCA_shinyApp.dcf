@@ -5,9 +5,9 @@ account: aberra
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14952863
-bundleId: 10474834
+bundleId: 10591225
 url: https://aberra.shinyapps.io/OCA_shinyApp/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: README.md|README.Rmd
+ignoredFiles: Johnson_n_Smith_schedule.csv|LICENSE|pics/oca_dashboard.png|pics/oca_output_right.png|README.html|README.md|README.Rmd|sample_schedule.csv
