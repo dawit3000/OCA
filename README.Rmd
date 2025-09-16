@@ -89,8 +89,11 @@ Try the app using these example schedules:
 - **“OCA: A Shiny Web Application for Transparent Overload Compensation in Higher Education”**  
   *(In preparation for submission to SoftwareX)*
 
-# 💻 Run Locally
+# 💻 Note: OCA assumes a basic familiarity with faculty overload policies. For new users, future versions may include tooltips and in-app help. In the meantime, this guide provides clarifications on how proration, pay rates, and thresholds are applied within the app.
 
+
+# 💻 Run Locally
+'
 
 ```{r, echo=TRUE, eval=FALSE}
 # Install required packages
