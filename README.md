@@ -1,14 +1,8 @@
----
-title: "OCA: Transparent Overload Compensation App"
-output:
-  md_document:
-    variant: gfm
-  html_document:
-    toc: true
-    number_sections: true
----
-
-**OCA (Overload Compensation App)** is a Shiny web application designed to calculate fair instructor pay for overload teaching assignments in higher education. It applies institutional policy while offering strategic flexibility — allowing administrators to favor cost-saving, faculty retention, or a balanced approach.
+**OCA (Overload Compensation App)** is a Shiny web application designed
+to calculate fair instructor pay for overload teaching assignments in
+higher education. It applies institutional policy while offering
+strategic flexibility — allowing administrators to favor cost-saving,
+faculty retention, or a balanced approach.
 
 # 🔑 Key Features
 
@@ -24,7 +18,7 @@ output:
 - Specify institutional compensation policies:
   - Pay rate per qualified credit hour
   - Regular teaching load (in credit hours)
-  - Minimum and maximum enrollment for proration  
+  - Minimum and maximum enrollment for proration
     - For no proration, set both L and U to 1  
 - Select a compensation strategy via slider:
   - **Favor Institution** – prioritizes cost savings
@@ -35,39 +29,50 @@ output:
 
 # 🧪 How It Works
 
-1. **Upload Input Data**  
-   A `.csv` file with scheduled courses, instructor names, credit hours, and enrollments.
+1.  **Upload Input Data**  
+    A `.csv` file with scheduled courses, instructor names, credit
+    hours, and enrollments.
 
-2. **Apply Filters (Optional)**  
-   Filter down to specific departments, instructors, or programs for focused analysis.
+2.  **Apply Filters (Optional)**  
+    Filter down to specific departments, instructors, or programs for
+    focused analysis.
 
-3. **Set Institutional Policy Parameters**  
-   Define standard teaching load, pay rate, and enrollment thresholds for proration.
+3.  **Set Institutional Policy Parameters**  
+    Define standard teaching load, pay rate, and enrollment thresholds
+    for proration.
 
-4. **Select Strategy**  
-   Use the slider to choose between institution-favored, instructor-favored, or blended strategy.
+4.  **Select Strategy**  
+    Use the slider to choose between institution-favored,
+    instructor-favored, or blended strategy.
 
-5. **View Output**  
-   The app calculates and displays instructor-level pay by strategy, with comparison charts and summaries.
+5.  **View Output**  
+    The app calculates and displays instructor-level pay by strategy,
+    with comparison charts and summaries.
 
 # 📸 Screenshot – UI for Left Panel
 
 <br>
 
-![OCA Dashboard](pics/oca_dashboard.png)
+<figure>
+<img src="pics/oca_dashboard.png" alt="OCA Dashboard" />
+<figcaption aria-hidden="true">OCA Dashboard</figcaption>
+</figure>
 
 # 📸 Screenshot – Strategy Output Comparison
-<br>
-
-![OCA Output Chart](pics/oca_output_right.png)
 
 <br>
 
+<figure>
+<img src="pics/oca_output_right.png" alt="OCA Output Chart" />
+<figcaption aria-hidden="true">OCA Output Chart</figcaption>
+</figure>
+
+<br>
 
 # 🖥️ Deployment
 
 The OCA App is now live hosted at shinyapps.io:  
-👉 [Launch OCA ](https://aberra.shinyapps.io/OCA_shinyApp/)
+👉 [Launch OCA](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 # 📁 Sample Data
 
@@ -78,24 +83,28 @@ Try the app using these example schedules:
 
 # 🧰 Powered By
 
-- [`catool`](https://github.com/dawit3000/catool) – R package for calculating overload pay based on institutional policy
-- [`shiny`](https://shiny.posit.co/) – R package for building interactive web applications
+- [`catool`](https://github.com/dawit3000/catool) – R package for
+  calculating overload pay based on institutional policy
+- [`shiny`](https://shiny.posit.co/) – R package for building
+  interactive web applications
 
 # 📄 Related Articles
 
-- **“catool: An R Package for Automating Fair Compensation in Higher Education”**  
+- **“catool: An R Package for Automating Fair Compensation in Higher
+  Education”**  
   *(Submitted to The R Journal)*
 
-- **“OCA: A Shiny Web Application for Transparent Overload Compensation in Higher Education”**  
+- **“OCA: A Shiny Web Application for Transparent Overload Compensation
+  in Higher Education”**  
   *(In preparation for submission to SoftwareX)*
 
 # 💻 Note: OCA assumes a basic familiarity with faculty overload policies. For new users, future versions may include tooltips and in-app help. In the meantime, this guide provides clarifications on how proration, pay rates, and thresholds are applied within the app.
 
-
 # 💻 Run Locally
-'
 
-```{r, echo=TRUE, eval=FALSE}
+’
+
+``` r
 # Install required packages
 install.packages(c("shiny", "catool", "dplyr", "readr", "ggplot2", "DT", "shinyWidgets"))
 
@@ -103,4 +112,4 @@ install.packages(c("shiny", "catool", "dplyr", "readr", "ggplot2", "DT", "shinyW
 library(shiny)
 runApp("path/to/OCA_shinyApp")
 ---
-  
+```
