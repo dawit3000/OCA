@@ -1,11 +1,11 @@
 ---
 title: "OCA: Transparent Overload Compensation App"
 output:
-  md_document:
-    variant: gfm
   html_document:
     toc: true
     number_sections: true
+  md_document:
+    variant: gfm
 ---
 
 **OCA (Overload Compensation App)** is a Shiny web application designed to calculate fair instructor pay for overload teaching assignments in higher education. It applies institutional policy while offering strategic flexibility — allowing administrators to favor cost-saving, faculty retention, or a balanced approach.
@@ -89,7 +89,8 @@ Try the app using these example schedules:
 - **“OCA: A Shiny Web Application for Transparent Overload Compensation in Higher Education”**  
   *(In preparation for submission to SoftwareX)*
 
-# 💻 Note: OCA assumes a basic familiarity with faculty overload policies. For new users, future versions may include tooltips and in-app help. In the meantime, this guide provides clarifications on how proration, pay rates, and thresholds are applied within the app.
+# 💻 Note: 
+OCA assumes a basic familiarity with faculty overload policies. For new users, future versions may include tooltips and in-app help. In the meantime, this guide provides clarifications on how proration, pay rates, and thresholds are applied within the app.
 
 
 # 💻 Run Locally

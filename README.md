@@ -98,7 +98,12 @@ Try the app using these example schedules:
   in Higher Education”**  
   *(In preparation for submission to SoftwareX)*
 
-# 💻 Note: OCA assumes a basic familiarity with faculty overload policies. For new users, future versions may include tooltips and in-app help. In the meantime, this guide provides clarifications on how proration, pay rates, and thresholds are applied within the app.
+# 💻 Note:
+
+OCA assumes a basic familiarity with faculty overload policies. For new
+users, future versions may include tooltips and in-app help. In the
+meantime, this guide provides clarifications on how proration, pay
+rates, and thresholds are applied within the app.
 
 # 💻 Run Locally
 
