@@ -355,18 +355,18 @@ App</h1>
 
 <div id="TOC">
 <ul>
-<li><a href="#key-features" id="toc-key-features"><span class="toc-section-number">1</span> 🔑 Key Features</a></li>
-<li><a href="#how-it-works" id="toc-how-it-works"><span class="toc-section-number">2</span> 🧪 How It Works</a></li>
-<li><a href="#screenshot-ui-for-left-panel" id="toc-screenshot-ui-for-left-panel"><span class="toc-section-number">3</span> 📸 Screenshot – UI for Left
+<li><a href="#key-features-how-it-works" id="toc-key-features-how-it-works"><span class="toc-section-number">1</span> 🔑 Key Features/ How it
+works</a></li>
+<li><a href="#screenshot-ui-for-left-panel" id="toc-screenshot-ui-for-left-panel"><span class="toc-section-number">2</span> 📸 Screenshot – UI for Left
 Panel</a></li>
-<li><a href="#screenshot-strategy-output-comparison" id="toc-screenshot-strategy-output-comparison"><span class="toc-section-number">4</span> 📸 Screenshot – Strategy Output
+<li><a href="#screenshot-strategy-output-comparison" id="toc-screenshot-strategy-output-comparison"><span class="toc-section-number">3</span> 📸 Screenshot – Strategy Output
 Comparison</a></li>
-<li><a href="#deployment" id="toc-deployment"><span class="toc-section-number">5</span> 🖥️ Deployment</a></li>
-<li><a href="#sample-data" id="toc-sample-data"><span class="toc-section-number">6</span> 📁 Sample Data</a></li>
-<li><a href="#powered-by" id="toc-powered-by"><span class="toc-section-number">7</span> 🧰 Powered By</a></li>
-<li><a href="#related-articles" id="toc-related-articles"><span class="toc-section-number">8</span> 📄 Related Articles</a></li>
-<li><a href="#note" id="toc-note"><span class="toc-section-number">9</span> 💻 Note:</a></li>
-<li><a href="#run-locally" id="toc-run-locally"><span class="toc-section-number">10</span> 💻 Run Locally</a></li>
+<li><a href="#deployment" id="toc-deployment"><span class="toc-section-number">4</span> 🖥️ Deployment</a></li>
+<li><a href="#sample-data" id="toc-sample-data"><span class="toc-section-number">5</span> 📁 Sample Data</a></li>
+<li><a href="#powered-by" id="toc-powered-by"><span class="toc-section-number">6</span> 🧰 Powered By</a></li>
+<li><a href="#related-articles" id="toc-related-articles"><span class="toc-section-number">7</span> 📄 Related Articles</a></li>
+<li><a href="#note" id="toc-note"><span class="toc-section-number">8</span> 💻 Note:</a></li>
+<li><a href="#run-locally" id="toc-run-locally"><span class="toc-section-number">9</span> 💻 Run Locally</a></li>
 </ul>
 </div>
 
@@ -375,15 +375,25 @@ application designed to calculate fair instructor pay for overload
 teaching assignments in higher education. It applies institutional
 policy while offering strategic flexibility — allowing administrators to
 favor cost-saving, faculty retention, or a balanced approach.</p>
-<div id="key-features" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> 🔑 Key Features</h1>
+<div id="key-features-how-it-works" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> 🔑 Key Features/ How it
+works</h1>
 <ul>
-<li>Upload a teaching schedule in <code>.csv</code> format from:
+<li>Upload your institution’s teaching schedule: a <code>.csv</code>
+file with scheduled courses, instructor names, credit hours, and
+enrollments. This file could be from
 <ul>
 <li>a local data folder, or<br />
 </li>
-<li>a URL pointing to such file<br />
-</li>
+<li>a URL pointing to such file</li>
+</ul></li>
+<li>The uploaded file must include the following exact column names as
+minimal requirement:
+<ul>
+<li>INSTRUCTOR — Instructor name</li>
+<li>SUBJ — Name of course (e.g. MATH 1111 or ENGL 2111-02)</li>
+<li>HRS — Credit hours</li>
+<li>ENRLD — Enrollment</li>
 </ul></li>
 <li>Optionally filter courses by:
 <ul>
@@ -391,53 +401,33 @@ favor cost-saving, faculty retention, or a balanced approach.</p>
 <li>Instructor</li>
 <li>College</li>
 <li>Department</li>
-<li>Program<br />
-</li>
+<li>Program</li>
 </ul></li>
-<li>Specify institutional compensation policies:
+<li>Set Institutional Policy Parameters:
 <ul>
 <li>Pay rate per qualified credit hour</li>
 <li>Regular teaching load (in credit hours)</li>
-<li>Minimum and maximum enrollment for proration
+<li>Minimum and maximum enrollment thresholds for proration
 <ul>
-<li>For no proration, set both L and U to 1<br />
-</li>
+<li>For no proration, set both L and U to 1</li>
 </ul></li>
 </ul></li>
-<li>Select a compensation strategy via slider:
+<li>Select a compensation strategy via slider: use the slider to choose
+between institution-favored, instructor-favored, or blended strategy.
 <ul>
 <li><strong>Favor Institution</strong> – prioritizes cost savings</li>
 <li><strong>Favor Faculty</strong> – prioritizes fairness</li>
 <li><strong>Blend</strong> – weighted average between the two
-extremes<br />
-</li>
+extremes</li>
 </ul></li>
-<li>Option to compare all strategies in the output</li>
+<li>Option to compare all strategies in the output. The app calculates
+and displays instructor-level pay by strategy, with comparison charts
+and summaries.</li>
 <li>Visualize compensation differences with a comparison chart</li>
 </ul>
 </div>
-<div id="how-it-works" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> 🧪 How It Works</h1>
-<ol style="list-style-type: decimal">
-<li><p><strong>Upload Input Data</strong><br />
-A <code>.csv</code> file with scheduled courses, instructor names,
-credit hours, and enrollments.</p></li>
-<li><p><strong>Apply Filters (Optional)</strong><br />
-Filter down to specific departments, instructors, or programs for
-focused analysis.</p></li>
-<li><p><strong>Set Institutional Policy Parameters</strong><br />
-Define standard teaching load, pay rate, and enrollment thresholds for
-proration.</p></li>
-<li><p><strong>Select Strategy</strong><br />
-Use the slider to choose between institution-favored,
-instructor-favored, or blended strategy.</p></li>
-<li><p><strong>View Output</strong><br />
-The app calculates and displays instructor-level pay by strategy, with
-comparison charts and summaries.</p></li>
-</ol>
-</div>
-<div id="screenshot-ui-for-left-panel" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> 📸 Screenshot – UI for
+<div id="screenshot-ui-for-left-panel" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> 📸 Screenshot – UI for
 Left Panel</h1>
 <p><br></p>
 <div class="float">
@@ -445,8 +435,8 @@ Left Panel</h1>
 <div class="figcaption">OCA Dashboard</div>
 </div>
 </div>
-<div id="screenshot-strategy-output-comparison" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> 📸 Screenshot –
+<div id="screenshot-strategy-output-comparison" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> 📸 Screenshot –
 Strategy Output Comparison</h1>
 <p><br></p>
 <div class="float">
@@ -455,14 +445,14 @@ Strategy Output Comparison</h1>
 </div>
 <p><br></p>
 </div>
-<div id="deployment" class="section level1" number="5">
-<h1><span class="header-section-number">5</span> 🖥️ Deployment</h1>
+<div id="deployment" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> 🖥️ Deployment</h1>
 <p>The OCA App is now live hosted at shinyapps.io:<br />
 👉 <a href="https://aberra.shinyapps.io/OCA_shinyApp/">Launch
 OCA</a></p>
 </div>
-<div id="sample-data" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> 📁 Sample Data</h1>
+<div id="sample-data" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> 📁 Sample Data</h1>
 <p>Try the app using these example schedules:</p>
 <ul>
 <li><a href="https://raw.githubusercontent.com/dawit3000/OCA/main/sample_schedule.csv"><code>sample_schedule.csv</code></a><br />
@@ -470,8 +460,8 @@ OCA</a></p>
 <li><a href="https://raw.githubusercontent.com/dawit3000/OCA/main/Johnson_n_smith_schedule.csv"><code>Johnson_n_Smith_schedule.csv</code></a></li>
 </ul>
 </div>
-<div id="powered-by" class="section level1" number="7">
-<h1><span class="header-section-number">7</span> 🧰 Powered By</h1>
+<div id="powered-by" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> 🧰 Powered By</h1>
 <ul>
 <li><a href="https://github.com/dawit3000/catool"><code>catool</code></a> – R
 package for calculating overload pay based on institutional policy</li>
@@ -479,8 +469,8 @@ package for calculating overload pay based on institutional policy</li>
 for building interactive web applications</li>
 </ul>
 </div>
-<div id="related-articles" class="section level1" number="8">
-<h1><span class="header-section-number">8</span> 📄 Related
+<div id="related-articles" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> 📄 Related
 Articles</h1>
 <ul>
 <li><p><strong>“catool: An R Package for Automating Fair Compensation in
@@ -491,15 +481,15 @@ Compensation in Higher Education”</strong><br />
 <em>(In preparation for submission to SoftwareX)</em></p></li>
 </ul>
 </div>
-<div id="note" class="section level1" number="9">
-<h1><span class="header-section-number">9</span> 💻 Note:</h1>
+<div id="note" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> 💻 Note:</h1>
 <p>OCA assumes a basic familiarity with faculty overload policies. For
 new users, future versions may include tooltips and in-app help. In the
 meantime, this guide provides clarifications on how proration, pay
 rates, and thresholds are applied within the app.</p>
 </div>
-<div id="run-locally" class="section level1" number="10">
-<h1><span class="header-section-number">10</span> 💻 Run Locally</h1>
+<div id="run-locally" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> 💻 Run Locally</h1>
 <p>’</p>
 <pre class="r"><code># Install required packages
 install.packages(c(&quot;shiny&quot;, &quot;catool&quot;, &quot;dplyr&quot;, &quot;readr&quot;, &quot;ggplot2&quot;, &quot;DT&quot;, &quot;shinyWidgets&quot;))

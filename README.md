@@ -4,50 +4,39 @@ higher education. It applies institutional policy while offering
 strategic flexibility — allowing administrators to favor cost-saving,
 faculty retention, or a balanced approach.
 
-# 🔑 Key Features
+# 🔑 Key Features/ How it works
 
-- Upload a teaching schedule in `.csv` format from:
+- Upload your institution’s teaching schedule: a `.csv` file with
+  scheduled courses, instructor names, credit hours, and enrollments.
+  This file could be from
   - a local data folder, or  
-  - a URL pointing to such file  
+  - a URL pointing to such file
+- The uploaded file must include the following exact column names as
+  minimal requirement:
+  - INSTRUCTOR — Instructor name
+  - SUBJ — Name of course (e.g. MATH 1111 or ENGL 2111-02)
+  - HRS — Credit hours
+  - ENRLD — Enrollment
 - Optionally filter courses by:
   - Subject
   - Instructor
   - College
   - Department
-  - Program  
-- Specify institutional compensation policies:
+  - Program
+- Set Institutional Policy Parameters:
   - Pay rate per qualified credit hour
   - Regular teaching load (in credit hours)
-  - Minimum and maximum enrollment for proration
-    - For no proration, set both L and U to 1  
-- Select a compensation strategy via slider:
+  - Minimum and maximum enrollment thresholds for proration
+    - For no proration, set both L and U to 1
+- Select a compensation strategy via slider: use the slider to choose
+  between institution-favored, instructor-favored, or blended strategy.
   - **Favor Institution** – prioritizes cost savings
   - **Favor Faculty** – prioritizes fairness
-  - **Blend** – weighted average between the two extremes  
-- Option to compare all strategies in the output
+  - **Blend** – weighted average between the two extremes
+- Option to compare all strategies in the output. The app calculates and
+  displays instructor-level pay by strategy, with comparison charts and
+  summaries.
 - Visualize compensation differences with a comparison chart
-
-# 🧪 How It Works
-
-1.  **Upload Input Data**  
-    A `.csv` file with scheduled courses, instructor names, credit
-    hours, and enrollments.
-
-2.  **Apply Filters (Optional)**  
-    Filter down to specific departments, instructors, or programs for
-    focused analysis.
-
-3.  **Set Institutional Policy Parameters**  
-    Define standard teaching load, pay rate, and enrollment thresholds
-    for proration.
-
-4.  **Select Strategy**  
-    Use the slider to choose between institution-favored,
-    instructor-favored, or blended strategy.
-
-5.  **View Output**  
-    The app calculates and displays instructor-level pay by strategy,
-    with comparison charts and summaries.
 
 # 📸 Screenshot – UI for Left Panel
 
