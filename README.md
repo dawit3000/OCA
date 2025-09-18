@@ -81,9 +81,18 @@ faculty retention, or a balanced approach.
 
 <br>
 
+# 🖥️ Output
+
+- **QHRS** — qualified credit hours used for compensation
+- **PAY** — compensation amount corresponding to `QHRS`
+- **TYPE** — indicates whether the pay is prorated (`PRO`) or full
+- **SUMMARY** — appended block with payroll-ready totals, overload rate,
+  qualified hours, and notes
+
 # 🖥️ Deployment
 
-The OCA App is now live hosted at shinyapps.io:  
+The OCA App is now live hosted at shinyapps.io:
+
 👉 [Launch OCA](https://aberra.shinyapps.io/OCA_shinyApp/)
 
 # 📁 Sample Data
