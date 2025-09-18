@@ -355,8 +355,7 @@ App</h1>
 
 <div id="TOC">
 <ul>
-<li><a href="#key-features-how-it-works" id="toc-key-features-how-it-works"><span class="toc-section-number">1</span> 🔑 Key Features/ How it
-works</a></li>
+<li><a href="#key-features-how-it-works" id="toc-key-features-how-it-works"><span class="toc-section-number">1</span> Key Features / How It Works</a></li>
 <li><a href="#screenshot-ui-for-left-panel" id="toc-screenshot-ui-for-left-panel"><span class="toc-section-number">2</span> 📸 Screenshot – UI for Left
 Panel</a></li>
 <li><a href="#screenshot-strategy-output-comparison" id="toc-screenshot-strategy-output-comparison"><span class="toc-section-number">3</span> 📸 Screenshot – Strategy Output
@@ -376,54 +375,61 @@ teaching assignments in higher education. It applies institutional
 policy while offering strategic flexibility — allowing administrators to
 favor cost-saving, faculty retention, or a balanced approach.</p>
 <div id="key-features-how-it-works" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> 🔑 Key Features/ How it
-works</h1>
+<h1><span class="header-section-number">1</span> Key Features / How It
+Works</h1>
+<p>✨ <strong>Upload Your Teaching Schedule</strong></p>
 <ul>
-<li>Upload your institution’s teaching schedule: a <code>.csv</code>
-file with scheduled courses, instructor names, credit hours, and
-enrollments. This file could be from
+<li><p>Provide a <strong>.csv file</strong> with scheduled courses,
+instructor names, credit hours, and enrollments.</p></li>
+<li><p>The file may come from:</p>
 <ul>
-<li>a local data folder, or<br />
-</li>
-<li>a URL pointing to such file</li>
+<li>Local data folder</li>
+<li>URL pointing to such file</li>
 </ul></li>
-<li>The uploaded file must include the following exact column names as
-minimal requirement:
+</ul>
+<p>🔍 <strong>Required columns (exact names):</strong></p>
 <ul>
-<li>INSTRUCTOR — Instructor name</li>
-<li>SUBJ — Name of course (e.g. MATH 1111 or ENGL 2111-02)</li>
-<li>HRS — Credit hours</li>
-<li>ENRLD — Enrollment</li>
-</ul></li>
-<li>Optionally filter courses by:
+<li><code>INSTRUCTOR</code> — Instructor name</li>
+<li><code>SUBJ</code> — Course identifier (e.g., <em>MATH 1111</em> or
+<em>ENGL 2111-02</em>)</li>
+<li><code>HRS</code> — Credit hours</li>
+<li><code>ENRLD</code> — Enrollment</li>
+</ul>
+<p>🔍 <strong>Filter Courses (Optional)</strong></p>
 <ul>
 <li>Subject</li>
 <li>Instructor</li>
 <li>College</li>
 <li>Department</li>
 <li>Program</li>
-</ul></li>
-<li>Set Institutional Policy Parameters:
+</ul>
+<p>⚙️ <strong>Set Institutional Policy Parameters</strong></p>
 <ul>
-<li>Pay rate per qualified credit hour</li>
-<li>Regular teaching load (in credit hours)</li>
-<li>Minimum and maximum enrollment thresholds for proration
+<li><p>Pay rate per qualified credit hour</p></li>
+<li><p>Regular teaching load (in credit hours)</p></li>
+<li><p>Minimum and maximum enrollment thresholds for proration</p>
+<p>👉 For institutions <strong>without a proration policy</strong> (full
+pay even for low-enrolled courses), set both <strong>L</strong> and
+<strong>U</strong> to <code>0</code>.</p></li>
+</ul>
+<p>🎚 <strong>Select a Compensation Strategy</strong></p>
 <ul>
-<li>For no proration, set both L and U to 1</li>
-</ul></li>
-</ul></li>
-<li>Select a compensation strategy via slider: use the slider to choose
-between institution-favored, instructor-favored, or blended strategy.
-<ul>
-<li><strong>Favor Institution</strong> – prioritizes cost savings</li>
-<li><strong>Favor Faculty</strong> – prioritizes fairness</li>
-<li><strong>Blend</strong> – weighted average between the two
+<li><strong>Favor Institution</strong> → prioritizes cost savings</li>
+<li><strong>Favor Faculty</strong> → prioritizes fairness</li>
+<li><strong>Blend</strong> → weighted average between the two
 extremes</li>
-</ul></li>
-<li>Option to compare all strategies in the output. The app calculates
-and displays instructor-level pay by strategy, with comparison charts
-and summaries.</li>
-<li>Visualize compensation differences with a comparison chart</li>
+</ul>
+<p>📊 **Review Compensation Results*</p>
+<ul>
+<li><strong>Instructor- and institution-level pay by strategy</strong> —
+with a slider to favor institution, faculty, or blended strategies in
+the output</li>
+<li><strong>Comparison tables and summaries</strong> for clear
+side-by-side evaluation</li>
+<li><strong>Visual charts</strong> to highlight compensation differences
+(includes institution-wide totals when charting is enabled)</li>
+<li><strong>Customizable output</strong> — select only the columns you
+want to visualize or download</li>
 </ul>
 </div>
 <div id="screenshot-ui-for-left-panel" class="section level1" number="2">

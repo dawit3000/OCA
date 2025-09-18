@@ -4,40 +4,59 @@ higher education. It applies institutional policy while offering
 strategic flexibility — allowing administrators to favor cost-saving,
 faculty retention, or a balanced approach.
 
-# 🔑 Key Features/ How it works
+# Key Features / How It Works
 
-- Upload your institution’s teaching schedule: a `.csv` file with
-  scheduled courses, instructor names, credit hours, and enrollments.
-  This file could be from
-  - a local data folder, or  
-  - a URL pointing to such file
-- The uploaded file must include the following exact column names as
-  minimal requirement:
-  - INSTRUCTOR — Instructor name
-  - SUBJ — Name of course (e.g. MATH 1111 or ENGL 2111-02)
-  - HRS — Credit hours
-  - ENRLD — Enrollment
-- Optionally filter courses by:
-  - Subject
-  - Instructor
-  - College
-  - Department
-  - Program
-- Set Institutional Policy Parameters:
-  - Pay rate per qualified credit hour
-  - Regular teaching load (in credit hours)
-  - Minimum and maximum enrollment thresholds for proration
-    - For your institution has no proration policy,i.e., if it pays full
-      for low-enrolled courses, set both L and U to 0.
-- Select a compensation strategy via slider: use the slider to choose
-  between institution-favored, instructor-favored, or blended strategy.
-  - **Favor Institution** – prioritizes cost savings
-  - **Favor Faculty** – prioritizes fairness
-  - **Blend** – weighted average between the two extremes
-- Option to compare all strategies in the output. The app calculates and
-  displays instructor-level pay by strategy, with comparison charts and
-  summaries.
-- Visualize compensation differences with a comparison chart
+✨ **Upload Your Teaching Schedule**
+
+- Provide a **.csv file** with scheduled courses, instructor names,
+  credit hours, and enrollments.
+
+- The file may come from:
+
+  - Local data folder
+  - URL pointing to such file
+
+🔍 **Required columns (exact names):**
+
+- `INSTRUCTOR` — Instructor name
+- `SUBJ` — Course identifier (e.g., *MATH 1111* or *ENGL 2111-02*)
+- `HRS` — Credit hours
+- `ENRLD` — Enrollment
+
+🔍 **Filter Courses (Optional)**
+
+- Subject
+- Instructor
+- College
+- Department
+- Program
+
+⚙️ **Set Institutional Policy Parameters**
+
+- Pay rate per qualified credit hour
+
+- Regular teaching load (in credit hours)
+
+- Minimum and maximum enrollment thresholds for proration
+
+  👉 For institutions **without a proration policy** (full pay even for
+  low-enrolled courses), set both **L** and **U** to `0`.
+
+🎚 **Select a Compensation Strategy**
+
+- **Favor Institution** → prioritizes cost savings
+- **Favor Faculty** → prioritizes fairness
+- **Blend** → weighted average between the two extremes
+
+📊 \*\*Review Compensation Results\*
+
+- **Instructor- and institution-level pay by strategy** — with a slider
+  to favor institution, faculty, or blended strategies in the output
+- **Comparison tables and summaries** for clear side-by-side evaluation
+- **Visual charts** to highlight compensation differences (includes
+  institution-wide totals when charting is enabled)
+- **Customizable output** — select only the columns you want to
+  visualize or download
 
 # 📸 Screenshot – UI for Left Panel
 
