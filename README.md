@@ -23,13 +23,13 @@ faculty retention, or a balanced approach.
 - `HRS` — Credit hours
 - `ENRLD` — Enrollment
 
-🔍 **Filter Courses (Optional)**
+🔍 **Filter Courses by (Optional)**
 
-- Subject
-- Instructor
-- College
-- Department
-- Program
+- `SUBJ` — Subject (required column)
+- `INSTRUCTOR` — Instructor (required column)
+- `COLLEGE` — College (optional column, if available)
+- `DEPARTMENT` — Department (optional column, if available)
+- `PROGRAM` — Program (optional column, if available)
 
 ⚙️ **Set Institutional Policy Parameters**
 
@@ -42,13 +42,13 @@ faculty retention, or a balanced approach.
   👉 For institutions **without a proration policy** (full pay even for
   low-enrolled courses), set both **L** and **U** to `0`.
 
-🎚 **Select a Compensation Strategy**
+🎚 **Select a Compensation Strategy** per institutional policy
 
 - **Favor Institution** → prioritizes cost savings
 - **Favor Faculty** → prioritizes fairness
 - **Blend** → weighted average between the two extremes
 
-📊 \*\*Review Compensation Results\*
+📊 **Review Compensation Results**
 
 - **Instructor- and institution-level pay by strategy** — with a slider
   to favor institution, faculty, or blended strategies in the output
