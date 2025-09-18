@@ -96,7 +96,8 @@ faculty retention, or a balanced approach.
     `INSTRUCTOR, SUBJ, HRS, ENRLD, QHRS, PAY, TYPE, SUMMARY`.
 
 - **Strategy Comparison** — instructor- and institution-level pay under
-  all strategies (Institution, Faculty, Blend) side by side
+  all favored strategies (Institution, Faculty, Blend) displayed side by
+  side
 
 - **Charts** — visualize compensation differences across strategies,
   including institution-wide totals when charting is enabled
