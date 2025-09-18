@@ -27,7 +27,8 @@ faculty retention, or a balanced approach.
   - Pay rate per qualified credit hour
   - Regular teaching load (in credit hours)
   - Minimum and maximum enrollment thresholds for proration
-    - For no proration, set both L and U to 1
+    - For your institution has no proration policy,i.e., if it pays full
+      for low-enrolled courses, set both L and U to 0.
 - Select a compensation strategy via slider: use the slider to choose
   between institution-favored, instructor-favored, or blended strategy.
   - **Favor Institution** – prioritizes cost savings
