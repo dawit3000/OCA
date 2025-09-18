@@ -56,12 +56,11 @@ output:
 
 📊 **Review Compensation Results**
 
-
 * **Instructor- and institution-level pay by strategy** — with a slider to favor institution, faculty, or blended strategies in the output
 * **Comparison tables and summaries** for clear side-by-side evaluation
+* **Customizable output** — select only the columns you want to visualize or download, with results displayed in the desired order, e.g., : `INSTRUCTOR, SUBJ, HRS, ENRLD, QHRS, PAY, TYPE, SUMMARY`
+* **SUMMARY block** — appended after instructor rows, providing payroll-ready totals with overload rate, qualified hours, and notes
 * **Visual charts** to highlight compensation differences (includes institution-wide totals when charting is enabled)
-* **Customizable output** — select only the columns you want to visualize or download
-
 
 # 📸 Screenshot – UI for Left Panel
 
