@@ -83,11 +83,23 @@ faculty retention, or a balanced approach.
 
 # 🖥️ Output
 
-- **QHRS** — qualified credit hours used for compensation
-- **PAY** — compensation amount corresponding to `QHRS`
-- **TYPE** — indicates whether the pay is prorated (`PRO`) or full
-- **SUMMARY** — appended block with payroll-ready totals, overload rate,
-  qualified hours, and notes
+- **Strategy-Based Comparison Tables** — detailed breakdowns of
+  compensation with totals and summaries
+
+  - **QHRS** — qualified credit hours used for compensation
+  - **PAY** — compensation amount corresponding to `QHRS`
+  - **TYPE** — indicates whether the pay is prorated (`PRO`) or full
+  - **SUMMARY** — appended block with payroll-ready totals, overload
+    rate, qualified hours, and notes
+  - **Column order** — users may reorder or select only the columns they
+    want to display or download. A typical sequence is:
+    `INSTRUCTOR, SUBJ, HRS, ENRLD, QHRS, PAY, TYPE, SUMMARY`.
+
+- **Strategy Comparison** — instructor- and institution-level pay under
+  all strategies (Institution, Faculty, Blend) side by side
+
+- **Charts** — visualize compensation differences across strategies,
+  including institution-wide totals when charting is enabled
 
 # 🖥️ Deployment
 
